@@ -1,2 +1,3 @@
-# MDDN352
-Repo for MDDN352 Final Group Project - Rails Implementation
+# Te Papa: Culture Companion
+
+MDDN352 Project by Tim Paisley
