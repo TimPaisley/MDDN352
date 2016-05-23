@@ -1,0 +1,35 @@
+{
+	"title":"Bush City",
+	"subText":"Step outside into Bush City – a living, growing exhibition.",
+	"imageName":"bush-city.jpg",
+	"when":"Long-term exhibition",
+	"where":"Outside Levels 1 and 2",
+	"cost":"Free entry",
+	"type":"Nature and Science",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"Take a short walk through some of the natural wonders of New Zealand, from native bush to volcanic landscape."
+		},
+		{
+			"title":"Native Bush",
+			"text":"Head to the bush! With over 1,400 native plants you can take a condensed tramp through New Zealand’s jungle-like forests. You might even see a tūī or other birds in the bush."
+		},
+		{
+			"title":"Volcanic landscape",
+			"text":"Explore examples of Aotearoa’sAotearoa’s New Zealand’s volcanic landscape – clamber up a lava flow and layered ash falls from the central North Island’s volcanoes."
+		},
+		{
+			"title":"Fossil Dig",
+			"text":"Are you a budding palaeontologist? Uncover a giant fossilised mosasaur (marine reptile) replica at our fossil dig."
+		},
+		{
+			"title":"Limestone Cave",
+			"text":"Venture underground, down dark passageways dripping with water and lit by glow-worms. Here you’ll find stalactites, cave wētā, and the bones of extinct flightless moa. Our limestone cave is inspired by the Waitomo caves."
+		},
+		{
+			"title":"Oldest Rocks",
+			"text":"Check out the oldest exhibits at Te Papa. You can even climb on these colourful rocks – some date back almost 600 million years!"
+		}
+	]
+}
