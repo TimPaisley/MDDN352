@@ -1,5 +1,20 @@
+<% id = 'quakebraker' %>
+
 <div class="center jumbotron">
-	<h1>Display Template</h1>
+	<h1><%= parse_display(id, 'title') %></h1>
+	<h2><%= parse_display(id, 'subText') %></h2>
 </div>
 
-<p>This is where we'll load data from the JSON file with a unique ID.</p>
+<p>Where: <span class='text-muted'><%= parse_display(id, 'where') %></span></p>
+<p>When: <span class='text-muted'><%= parse_display(id, 'when') %></span></p>
+<p>Cost: <span class='text-muted'><%= parse_display(id, 'cost') %></span></p>
+<p>Type: <span class='text-muted'><%= parse_display(id, 'type') %></span></p>
+
+<% para = parse_display(id, 'paragraph') %>
+	
+<% para.each do |para| %>
+	<% unless para['title'] == 'NULL' %>
+		<h3><%= para['title'] %></h3>
+	<% end %>
+	<p><%= para['text'] %></p>
+<% end %>
