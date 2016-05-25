@@ -34522,3 +34522,132 @@ Completed 200 OK in 165ms (Views: 165.2ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/display-images/quakebraker-c320fa8a162404820e276aed0536af122720a700f961e9e23cf88ff24e9fc88b.jpg" for ::1 at 2016-05-25 21:37:42 +1200
+
+
+Started GET "/display" for ::1 at 2016-05-26 09:44:19 +1200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ExhibitsController#exhibit as HTML
+  Rendered exhibits/exhibit.html.erb within layouts/application (15.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (122.7ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3234ms (Views: 3187.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/static_pages.self-42471e6d506179ab83ac48ba1768ff78af7920bfa23379ca4bba0cfabefa47f5.css?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/custom.self-496d64a39cf56195c8ff0752398453ce3ecb340f13e7410eb12c6753bc586a46.css?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-26 09:44:24 +1200
+
+
+Started GET "/assets/jumbo-bg-587786c79e4288d16d5201ea1a783d7d6e4c54b41c552a9c2efb767f7ebd21b6.jpg" for ::1 at 2016-05-26 09:44:25 +1200
+
+
+Started GET "/display/quakebraker" for ::1 at 2016-05-26 09:44:28 +1200
+Processing by ExhibitsController#display as HTML
+  Parameters: {"id"=>"quakebraker"}
+  Rendered exhibits/display.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (15.6ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (15.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 266ms (Views: 269.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/display/quakebraker" for ::1 at 2016-05-26 09:44:53 +1200
+Processing by ExhibitsController#display as HTML
+  Parameters: {"id"=>"quakebraker"}
+  Rendered exhibits/display.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (10.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 277ms (Views: 275.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-26 09:44:53 +1200
+
+
+Started GET "/assets/static_pages.self-42471e6d506179ab83ac48ba1768ff78af7920bfa23379ca4bba0cfabefa47f5.css?body=1" for ::1 at 2016-05-26 09:44:53 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-26 09:44:53 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-26 09:44:53 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-05-26 09:44:53 +1200
+
+
+Started GET "/assets/custom.self-496d64a39cf56195c8ff0752398453ce3ecb340f13e7410eb12c6753bc586a46.css?body=1" for ::1 at 2016-05-26 09:44:53 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-26 09:44:54 +1200
+
+
+Started GET "/assets/display-images/quakebraker-c320fa8a162404820e276aed0536af122720a700f961e9e23cf88ff24e9fc88b.jpg" for ::1 at 2016-05-26 09:44:54 +1200
