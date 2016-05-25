@@ -1,13 +1,8 @@
 Rails.application.routes.draw do
 
   get 'exhibits/levels'
-
   get 'exhibits/exhibit'
-
-  get 'exhibits/display'
-
   get 'sessions/new'
-
   get 'users/new'
 
   root             'static_pages#home'
@@ -17,7 +12,7 @@ Rails.application.routes.draw do
   get 'levels' => 'exhibits#levels'
   get 'exhibit' => 'exhibits#exhibit'
   get 'display' => 'exhibits#exhibit'
-  get 'display/:id' => 'exhibits#display'
+  get 'display/:id' => 'exhibits#display', as: :display_page
   get 'signup' 	=> 'users#new'
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'
