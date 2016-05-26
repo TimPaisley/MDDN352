@@ -1,0 +1,27 @@
+{
+	"title":"Blood Earth Fire",
+	"subText":"Explore New Zealand’s dramatic transition from untouched paradise to cultivated land.",
+	"imageName":"blood-earth-fire.jpg",
+	"when":"Long-term exhibition",
+	"where":"Level 3",
+	"cost":"Free entry",
+	"type":"Nature and Science",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"Step back in time and discover unusual species and habitats – and the ‘alien’ invaders that wiped them out. Blood Earth Fire recognises the complex relationships formed between Aotearoa New Zealand and the people who have changed, and been changed by, this land."
+		},
+		{
+			"title":"Conversion at a cost",
+			"text":"See the teeming communities of plants and animals that thrived here before people arrived, and listen to the incredible dawn chorus as it may have sounded 1,000 years ago. Then journey through New Zealand’s rapid transformation, from forests and wetlands to gardens, farms, and settlements, hearing a haunting lament for the species that became extinct as a result. You can even settle a new land yourself. In our ‘Survivor’ computer interactive you’ll become an alien and choose species to take from your planet to a new one – will you survive?"
+		},
+		{
+			"title":"People of the land",
+			"text":"Explore the deep connection between the first people of Aotearoa and the qualities and rhythms of this land. Uncover the rich meaning behind beautiful taongataonga Māori cultural treasures such as ipu whenua (afterbirth containers), rākau whakapapa (genealogy staffs), and a striking display of matau (fish hooks and lures), along with a dazzling interactive on the maramataka (Māori lunar calendar)."
+		},
+		{
+			"title":"My Place",
+			"text":"Blood Earth Fire culminates in a spectacular film. In ‘My Place’, people from around the country each share with you a striking and beautiful place that is most important to them – their place!"
+		}
+	]
+}

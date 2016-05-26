@@ -1,0 +1,31 @@
+{
+	"title":"Awesome Forces",
+	"subText":"Feel the earth move under your feet and see how seismic shifts created New Zealand’s landscapes.",
+	"imageName":"awesome-forces",
+	"when":"Long-term exhibition",
+	"where":"Level 2",
+	"cost":"Free entry",
+	"type":"Nature and Science",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"Learn how plate tectonics, earthquakes, volcanic eruptions, and erosion have shaped one of the most dynamic and diverse landscapes in the world: Aotearoa New Zealand."
+		},
+		{
+			"title":"Seismic shifts",
+			"text":"You’ll discover the forces that change the surface of our planet, starting with a striking visual journey out from the Earth’s core. You’ll see New Zealand’s position astride two mighty tectonic plates, and learn how scientists measure their movements."
+		},
+		{
+			"title":"Flora and fauna: Original cargo?",
+			"text":"Watch a video showing New Zealand’s split from the supercontinent Gondwanaland 83 million years ago. Then consider the geological evidence that New Zealand's unique plants and animals may have descended from ancestors travelling through millennia on this new lifeboat-like 'continent'."
+		},
+		{
+			"title":"Earthquake Commission",
+			"text":"Anyone who lives in New Zealand is at high risk from natural hazards, so Awesome Forces has a strong human dimension. You can explore the role of the Earthquake Commission (EQC) – a national agency that provides natural disaster insurance – through a computer interactive."
+		},
+		{
+			"title":"Māori and the land",
+			"text":"Experience the Māori account of creation through a sound and light show. This presentation expresses the enduring relationship between the land, its people, and the forces of nature."
+		}
+	]
+}

@@ -1,16 +1,14 @@
-<% id = params[:id] %>
+<% exhibit_id = params[:ex] %>
+<% display_id = params[:id] %>
 
-<div class="center jumbotron" style="background: url(<%= asset_path('display-images/' + id + '.jpg') %>)">
-	<h1><%= parse_display(id, 'title') %></h1>
-	<h2><%= parse_display(id, 'subText') %></h2>
+<div class="center jumbotron" style="background: url(<%= asset_path('display-images/' + display_id + '.jpg') %>)">
+	<h1><%= parse_display(exhibit_id, display_id, 'title') %></h1>
+	<h2><%= parse_display(exhibit_id, display_id, 'subText') %></h2>
 </div>
 
-<p>Where: <span class='text-muted'><%= parse_display(id, 'where') %></span></p>
-<p>When: <span class='text-muted'><%= parse_display(id, 'when') %></span></p>
-<p>Cost: <span class='text-muted'><%= parse_display(id, 'cost') %></span></p>
-<p>Type: <span class='text-muted'><%= parse_display(id, 'type') %></span></p>
+<p>Exhibit: <span class='text-muted'><%= parse_display(exhibit_id, display_id, 'exhibit') %></span></p>
 
-<% para = parse_display(id, 'paragraph') %>
+<% para = parse_display(exhibit_id, display_id, 'paragraph') %>
 	
 <% para.each do |para| %>
 	<% unless para['title'] == 'NULL' %>
