@@ -1,0 +1,32 @@
+{
+	"title":"Display 4",
+	"subText":"Sub-Title",
+	"exhibit":"Bush City",
+	"paragraph":[
+		{
+			"title":"Paragraph 1",
+			"text":"Have you ever wondered what would happen to Te Papa in an earthquake? Our building sits close to a major fault line on soft, reclaimed land – how do we keep our taongataonga treasures and people safe? Go underground at Quake Braker to see the amazing Kiwi innovation that ‘puts the brakes on’ in an earthquake.",
+			"image":"NULL"
+		},
+		{
+			"title":"Paragraph 2",
+			"text":" Base isolators are large rubber blocks laminated with steel, and with pure lead columns inside. They were invented by New Zealand scientist Dr William Robinson. This ingenious invention isolates the building from earthquakes and damps much of the shaking. Reducing the severity of shaking helps to protect the people and contents inside Te Papa. Base isolators are now used in buildings around the world in areas subject to seismic activity.",
+			"image":"NULL"
+		},
+		{
+			"title":"Paragraph 3",
+			"text":" Base isolators are large rubber blocks laminated with steel, and with pure lead columns inside. They were invented by New Zealand scientist Dr William Robinson. This ingenious invention isolates the building from earthquakes and damps much of the shaking. Reducing the severity of shaking helps to protect the people and contents inside Te Papa. Base isolators are now used in buildings around the world in areas subject to seismic activity.",
+			"image":"NULL"
+		}
+	],
+	"related":[
+		{
+			"title":"Link 1",
+			"url":"http://google.com/"
+		},
+		{
+			"title":"Link 2",
+			"text":"http://bing.com/"
+		}
+	]
+}

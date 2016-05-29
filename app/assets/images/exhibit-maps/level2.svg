@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="840px" height="680px" viewBox="0 0 595.28 481.89" style="enable-background:new 0 0 595.28 481.89; overflow-x: auto; overflow-y: auto;" xml:space="preserve">
+<g id="Layer_1">
+  
+    <image style="overflow:visible;" width="5206" height="3753" xlink:href="level2.jpg"  transform="matrix(0.1319 0 0 0.1319 -52.22 -7)">
+  </image>
+</g>
+<g id="Layer_2">
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="443.727,126.82 429.803,150.151 500.494,179.164 494.781,148.655  " onClick="window.location='exhibit.html?exhibit=naturespace';"/>
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="400.706,279.066 400.706,340.683 510.847,340.683 510.847,228.517 
+    500.494,179.164 469.79,166.602 427.661,239.285 412.666,278.767  " onClick="window.location='exhibit.html?exhibit=gallipoli';"/>
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="400.706,279.066 339.834,279.066 339.834,320.942 375.179,320.942 
+    375.536,298.509 400.706,298.808   " onClick="window.location='exhibit.html?exhibit=lvl2store';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M380.912,207.146l-39.293-3.455l73.546-121.737l43.557,18.246l-42.843,73.282
+    C415.88,173.481,380.912,181.535,380.912,207.146z" onClick="window.location='exhibit.html?exhibit=mountainstosea';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M427.661,239.285l42.129-72.683l-39.986-16.451l-13.924,23.33
+    c0,0-35.305,8.406-34.968,33.665C381.249,232.406,404.098,242.276,427.661,239.285z" onClick="window.location='exhibit.html?exhibit=awesomeforces';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M32.013,261.772l43.757,1.947c0,0,19.677-44.058,73.15-27.111
+    c0,0-19.397-33.894,30.406-34.408l3.67-12.325l22.543,8.73l39.318-29.786c0,0,74.967-14.379,93.84-93.98l-21.494-10.271
+    l5.767-13.352l22.018,10.271L349.706,43l-6.291-4.108c0,0,9.436-35.949-27.785-20.542l-18.873-3.838
+    c0,0-33.552,17.704-44.561,15.65L148.92,88.192c0,0-23.591,43.138-92.791,53.409c0,0-54.522,43.652-48.231,77.033L32.013,261.772z"
+     onClick="window.location='exhibit.html?exhibit=bushcity';"/>
+</g>
+</svg>

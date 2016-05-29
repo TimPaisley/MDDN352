@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="800px" height="800px" viewBox="0 0 595.28 538.58" style="enable-background:new 0 0 595.28 538.58; overflow-x: auto; overflow-y: auto;" xml:space="preserve">
+<g id="Layer_1">
+  
+    <image style="overflow:visible;" width="5206" height="3754" xlink:href="<%= image_path("exhibit-maps/level1.jpg") %>"  transform="matrix(0.1484 0 0 0.1457 -85.6707 -4)">
+  </image>
+</g>
+<g id="Layer_2">
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M83.018,340.489h134.95l-13.06,25.752C204.908,366.241,151.037,455.67,83.018,340.489z"onClick="window.location='exhibit.html?exhibit=lvl1store';"/>
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="63.428,305.373 83.018,340.489 217.968,340.489 250.073,305.373   "onClick="window.location='exhibit.html?exhibit=lvl1cafe';"/>
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="171.715,481.421 159.199,503.427 165.457,506.237 156.751,522.156 164.233,524.497 
+    185.863,488.913   "onClick="window.location='exhibit.html?exhibit=level1-quakebraker';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M29.146,275.407l45.419,1.775c0,0,20.424-40.169,75.928-24.718c0,0-20.134-30.902,31.561-31.37
+    l3.809-11.237l23.399,7.96l40.812-27.156c0,0,77.814-13.11,97.404-85.683l-22.31-9.364l5.986-12.174l22.855,9.364l4.897-16.856
+    l-6.53-3.746c0,0,9.795-32.775-28.84-18.729l-19.59-3.499c0,0-34.826,16.141-46.253,14.268l-107.199,52.908
+    c0,0-24.487,39.33-96.315,48.694c0,0-56.592,39.798-50.062,70.232L29.146,275.407z" onClick="window.location='exhibit.html?exhibit=bushcity';"/>
+</g>
+</svg>

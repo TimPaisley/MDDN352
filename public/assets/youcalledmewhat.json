@@ -1,0 +1,19 @@
+{
+	"title":"You Called Me What?! 150 years of scientific discovery at Te Papa",
+	"subText":"Uncover the fascinating stories behind scientific names – and help us name one of our latest discoveries.",
+	"imageName":"ycmw.jpg",
+	"when":"Short-term exhibit",
+	"where":"Level 3",
+	"cost":"Free entry",
+	"type":"Nature and Science",
+	"paragraph":[
+		{
+			"title":"Discover the exhibition",
+			"text":"Meet some of the passionate scientists who’ve discovered more than 2,500 species since the museum’s humble beginnings in 1865. Learn how they’ve named their discoveries, and explore their legacy today."
+		},
+		{
+			"title":"Help us name a new species",
+			"text":"Celebrate 150 years of science at Te Papa by helping us name a new species. You just might go down in history. Suggest a name for this Acanthoclinus rockfish. We’ll seriously consider your idea. This rockfish will be described as a new species by Te Papa scientist Andrew Stewart."
+		}
+	]
+}

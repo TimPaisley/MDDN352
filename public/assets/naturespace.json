@@ -1,0 +1,15 @@
+{
+	"title":"NatureSpace",
+	"subText":"It’s play time! Families get hands-on with educational exhibits, games, and books.",
+	"imageName":"naturespace.jpg",
+	"when":"Long-term exhibition",
+	"where":"Level 2",
+	"cost":"Free entry",
+	"type":"Nature and Science",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"Step inside a dinosaur footprint, crawl into a whale heart, inspect an insect under a microscope, find a fossil, and much more. At NatureSpace Discovery Centre, our natural environment takes centre stage!"
+		}
+	]
+}

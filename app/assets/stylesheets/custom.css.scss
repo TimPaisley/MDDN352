@@ -5,9 +5,9 @@
 
 $gray-medium-light: #eaeaea;
 
-$cc-blue: #00a0de;
-$cc-green: #3d9000;
-$cc-orange: #dc6d01;
+$acha-lily-blue: #00a0de;
+$acha-lily-green: #89bb5a;
+$acha-lily-orange: #dc6d01;
 
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
@@ -29,6 +29,8 @@ $cc-orange: #dc6d01;
 
 body {
   padding-top: 60px;
+  background: url(asset-path('background.jpg')) no-repeat center center fixed;
+  background-size: cover;
 }
 
 section {
@@ -71,6 +73,14 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -83,22 +93,27 @@ p {
 
 .btn {
   color: white;
+  font-size: 20px;
 }
 
 .btn-blue {
-  background-color: $cc-blue;
+  background-color: $acha-lily-blue;
 }
 
 .btn-green {
-  background-color: $cc-green;
+  background-color: $acha-lily-green;
 }
 
 .btn-orange {
-  background-color: $cc-orange;
+  background-color: $acha-lily-orange;
 }
 
 .btn-wide {
   width: 100%;
+}
+
+.btn-center {
+  text-align: center !important;
 }
 
 /* header */
@@ -119,41 +134,47 @@ p {
   }
 }
 
-.navbar-cc {
-  background-color: $cc-blue;
+.navbar {
+  margin-top: 10px;
+  background-color: #000;
+  opacity: 0.6;
+  border: 0px;
 }
 
 .navbar-header {
   padding-left: 15px;
 }
 
+#logo {
+  color: white;
+  opacity: 1.0;
+}
+
+.jumbotron {
+  background: url(asset-path('background.jpg')) no-repeat;
+  background-size: cover !important;
+}
+
 /* footer */
 
 footer {
+  clear: both;
+  position: relative;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $gray-medium-light;
-  color: $gray-light;
-  a {
-    color: $gray;
-    &:hover {
-      color: $gray-darker;
-    }
-  }
+  background: black;
+  opacity: 0.6;
+  color: white;
+
   p {
     text-align: center;
   }
-  ul {
-    float: right;
-    list-style: none;
-    li {
-      float: left;
-      margin-left: 15px;
-    }
-  }
 }
 
-/* sidebar */
+/* user sidebar */
 
 .gravatar {
   float: left;
@@ -184,6 +205,20 @@ footer {
   }
 }
 
+/* home */
+
+.main-title {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.0em;
+  margin-top: 0px;
+}
+
+.sub-title {
+  
+
+}
+
 /* exhibits */
 
 .user-exhibits {
@@ -199,6 +234,14 @@ footer {
   p {
     text-align: center;
   }
+}
+
+/* maps */
+
+.map {
+    height: 50vh;
+    overflow: scroll;
+    margin-bottom: 30px;
 }
 
 /* forms */

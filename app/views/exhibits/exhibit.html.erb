@@ -1,7 +1,37 @@
-<div class="center jumbotron">
-	<h1>Exhibit Template</h1>
+<% exhibit_id = params[:id] %>
+
+<h1><%= parse_exhibit(exhibit_id, 'title') %></h1>
+<h2><%= parse_exhibit(exhibit_id, 'subText') %></h2>
+	
+<div class='row'>
+	<div class='col-md-3'>
+		<!-- Sidebar -->
+		<p>Where: <span class='text-muted'><%= parse_exhibit(exhibit_id, 'where') %></span></p>
+		<p>When: <span class='text-muted'><%= parse_exhibit(exhibit_id, 'when') %></span></p>
+		<p>Cost: <span class='text-muted'><%= parse_exhibit(exhibit_id, 'cost') %></span></p>
+		<p>Type: <span class='text-muted'><%= parse_exhibit(exhibit_id, 'type') %></span></p>
+
+
+		<% para = parse_exhibit(exhibit_id, 'paragraph') %>
+		<% para.each do |para| %>
+			<% unless para['title'] == 'NULL' %>
+				<h3><%= para['title'] %></h3>
+			<% end %>
+			<p><%= para['text'] %></p>
+		<% end %>
+	</div>
+
+	<div class='col-md-9'>
+		<!-- Display Buttons -->
+		<% Dir.foreach('public/assets/' + exhibit_id) do |display| %>
+			<% unless display == '.' or display == '..' %>
+				<% display_id = display[0..-(File.extname(display).length + 1)] %>
+				<% display_name = parse_display(exhibit_id, display_id, 'title') %>
+			 	<p><%= link_to display_name, display_page_path(exhibit_id, display_id), class: "btn btn-wide btn-orange" %></p>
+		 	<% end %>
+		<% end %>
+	</div>
 </div>
 
-<p><%= link_to "Quake Braker »", display_page_path('quakebraker'), class: "btn btn-wide btn-orange" %></p>
-<p><%= link_to "Bush City »", display_page_path('quakebraker'), class: "btn btn-wide btn-orange" %></p>
-<p><%= link_to "Display 3 »", display_page_path('quakebraker'), class: "btn btn-wide btn-orange" %></p>
+
+

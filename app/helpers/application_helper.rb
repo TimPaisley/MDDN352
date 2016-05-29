@@ -9,4 +9,14 @@ module ApplicationHelper
 			page_title + " | " + base_title
 		end
 	end
+
+	def parse_exhibit(exhibitId = '', type = '')
+		hash = JSON.parse(File.read('public/assets/' + exhibitId + '.json'))
+		hash[type]
+	end
+	
+	def parse_display(exhibitId = '', displayId = '', type = '')
+		hash = JSON.parse(File.read('public/assets/' + exhibitId + '/' + displayId + '.json'))
+		hash[type]
+	end
 end

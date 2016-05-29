@@ -1,38 +1,111 @@
-<div class="center jumbotron">
-	<h1>Te Papa Levels</h1>
-</div>
+
+<h1>Te Papa Levels</h1>
 
 <!-- Level Buttons -->
 
+<!-- LEVEL 1 -->
 <p><a class="btn btn-wide btn-blue" data-toggle="collapse" href="#level1" aria-expanded="false">Level 1</a></p>
+<div id="level1" class="collapse">
+<h3>Interactive Map</h3>
+	<div class="map">      
+		<?xml version="1.0" encoding="iso-8859-1"?>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		    width="800px" height="800px" viewBox="0 0 595.28 538.58"
+		    style="enable-background:new 0 0 595.28 538.58; overflow-x: auto; overflow-y: auto;" xml:space="preserve">
+			<g id="Layer_1">
+			    <image style="overflow:visible;" width="5206" height="3754" xlink:href="<%= image_path("exhibit-maps/level1.jpg") %>"  transform="matrix(0.1484 0 0 0.1457 -85.6707 -4)">
+			  	</image>
+			</g>
+			<g id="Layer_2">
+			  	<path style="opacity:0.01;fill:#FFFFFF;" d="
+			  	M83.018,340.489h134.95l-13.06,25.752C204.908,366.241,151.037,455.67,83.018,340.489z"
+			  	onClick="window.location='<%= exhibit_page_path('level1store') %>';"/>
+			  	<polygon style="opacity:0.01;fill:#FFFFFF;" points="
+			  	63.428,305.373 83.018,340.489 217.968,340.489 250.073,305.373"
+			  	onClick="window.location='<%= exhibit_page_path('level1cafe') %>';"/>
+			  	<polygon style="opacity:0.01;fill:#FFFFFF;" points="
+			  	171.715,481.421 159.199,503.427 165.457,506.237 156.751,522.156 164.233,524.497 
+			    185.863,488.913"
+			    onClick="window.location='<%= exhibit_page_path('quakebraker') %>';"/>
+			  	<path style="opacity:0.01;fill:#FFFFFF;" d="M29.146,275.407l45.419,1.775c0,0,20.424-40.169,75.928-24.718c0,0-20.134-30.902,31.561-31.37
+			    l3.809-11.237l23.399,7.96l40.812-27.156c0,0,77.814-13.11,97.404-85.683l-22.31-9.364l5.986-12.174l22.855,9.364l4.897-16.856
+			    l-6.53-3.746c0,0,9.795-32.775-28.84-18.729l-19.59-3.499c0,0-34.826,16.141-46.253,14.268l-107.199,52.908
+			    c0,0-24.487,39.33-96.315,48.694c0,0-56.592,39.798-50.062,70.232L29.146,275.407z"
+			    onClick="window.location='<%= exhibit_page_path('bushcity') %>';"/>
+			</g>
+		</svg>
+	</div>
 
-<div id="level1" class="well collapse">
-	<p><%= link_to "X to the Z »", exhibit_path, class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
-	<p><%= link_to "Pimp My Page »", '#', class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
-	<p><%= link_to "West Coast Webpage »", '#', class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
+	<p><%= link_to "Quakebraker »", exhibit_page_path('quakebraker'), class: "btn btn-wide btn-orange" %></p>
+	<p><%= parse_exhibit('quakebraker', 'subText') %></p>
+	<p><%= link_to "Bush City »", exhibit_page_path('bushcity'), class: "btn btn-wide btn-orange" %></p>
+	<p><%= parse_exhibit('bushcity', 'subText') %></p>
 </div>
 
+<!-- LEVEL 2 -->
 <p><a class="btn btn-wide btn-blue" data-toggle="collapse" href="#level2" aria-expanded="false">Level 2</a></p>
+<div id="level2" class="collapse">
+<h3>Interactive Map</h3>
+	<div class="map">
+		<?xml version="1.0" encoding="iso-8859-1"?>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		    width="840px" height="680px" viewBox="0 0 595.28 481.89" style="enable-background:new 0 0 595.28 481.89; overflow-x: auto; overflow-y: auto;" xml:space="preserve">
+			<g id="Layer_1"><image style="overflow:visible;" width="5206" height="3753" xlink:href="<%= image_path("exhibit-maps/level2.jpg") %>"
+			transform="matrix(0.1319 0 0 0.1319 -52.22 -7)"></image></g>
+			<g id="Layer_2">
+			  <polygon style="opacity:0.01;fill:#FFFFFF;" points="443.727,126.82 429.803,150.151 500.494,179.164 494.781,148.655  "
+			  	onClick="window.location='<%= exhibit_page_path('naturespace') %>';"/>
+			  <polygon style="opacity:0.01;fill:#FFFFFF;" points="400.706,279.066 400.706,340.683 510.847,340.683 510.847,228.517 
+			    500.494,179.164 469.79,166.602 427.661,239.285 412.666,278.767"
+			    onClick="window.location='<%= exhibit_page_path('gallipoli') %>';"/>
+			  <polygon style="opacity:0.01;fill:#FFFFFF;" points="400.706,279.066 339.834,279.066 339.834,320.942 375.179,320.942 
+			    375.536,298.509 400.706,298.808   "
+			    onClick="window.location='<%= exhibit_page_path('level2store') %>';"/>
+			  <path style="opacity:0.01;fill:#FFFFFF;" d="M380.912,207.146l-39.293-3.455l73.546-121.737l43.557,18.246l-42.843,73.282
+			    C415.88,173.481,380.912,181.535,380.912,207.146z"
+			    onClick="window.location='<%= exhibit_page_path('mountainstosea') %>';"/>
+			  <path style="opacity:0.01;fill:#FFFFFF;" d="M427.661,239.285l42.129-72.683l-39.986-16.451l-13.924,23.33
+			    c0,0-35.305,8.406-34.968,33.665C381.249,232.406,404.098,242.276,427.661,239.285z"
+			    onClick="window.location='<%= exhibit_page_path('awesomeforces') %>';"/>
+			  <path style="opacity:0.01;fill:#FFFFFF;" d="M32.013,261.772l43.757,1.947c0,0,19.677-44.058,73.15-27.111
+			    c0,0-19.397-33.894,30.406-34.408l3.67-12.325l22.543,8.73l39.318-29.786c0,0,74.967-14.379,93.84-93.98l-21.494-10.271
+			    l5.767-13.352l22.018,10.271L349.706,43l-6.291-4.108c0,0,9.436-35.949-27.785-20.542l-18.873-3.838
+			    c0,0-33.552,17.704-44.561,15.65L148.92,88.192c0,0-23.591,43.138-92.791,53.409c0,0-54.522,43.652-48.231,77.033L32.013,261.772z"
+			    onClick="window.location='<%= exhibit_page_path('bushcity') %>';"/>
+			</g>
+		</svg>
+	</div>
 
-<div id="level2" class="well collapse">
-	<p><%= link_to "X to the Z »", exhibit_path, class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
-	<p><%= link_to "Pimp My Page »", '#', class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
-	<p><%= link_to "West Coast Webpage »", '#', class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
+	<p><%= link_to "Awesome Forces »", exhibit_page_path('awesomeforces'), class: "btn btn-wide btn-orange" %></p>
+	<p><%= parse_exhibit('awesomeforces', 'subText') %></p>
+	<p><%= link_to "Gallipoli »", exhibit_page_path('gallipoli'), class: "btn btn-wide btn-orange" %></p>
+	<p><%= parse_exhibit('gallipoli', 'subText') %></p>
+	<p><%= link_to "Mountains to Sea »", exhibit_page_path('mountainstosea'), class: "btn btn-wide btn-orange" %></p>
+	<p><%= parse_exhibit('mountainstosea', 'subText') %></p>
+	<p><%= link_to "Nature Space »", exhibit_page_path('naturespace'), class: "btn btn-wide btn-orange" %></p>
+	<p><%= parse_exhibit('naturespace', 'subText') %></p>
 </div>
 
 <p><a class="btn btn-wide btn-blue" data-toggle="collapse" href="#level3" aria-expanded="false">Level 3</a></p>
+<div id="level3" class="collapse">
+<h3>Interactive Map</h3>
+	<div class="map">
+		<?xml version="1.0" encoding="iso-8859-1"?>
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="920" height="680" viewBox="0 0 651.97 481.89" style="enable-background:new 0 0 651.97 481.89; overflow-x: auto; overflow-y: auto;"  xml:space="preserve">
+			<g id="Layer_1"><image style="overflow:visible;" width="5206" height="3754" xlink:href="<%= image_path("exhibit-maps/level3.jpg") %>"
+			transform="matrix(0.1269 0 0 0.1284 0 0)"></image></g>
+			<g id="Layer_2">
+			  <path style="opacity:0.01;fill:#FFFFFF;" d="M370.952,141.167l33.15-64.5l91.68,49.5l-31.596,62.5l-0.518,8.5H358.002
+			  c0,0,2.59-22.5,7.77-31.5l-42.991-23c0,0-18.647,36.5-13.467,54.5h-18.647l13.985-64.5l-23.827-13l10.877-19.5L370.952,141.167z"
+			  onClick="window.location='<%= exhibit_page_path('bloodearthfire') %>';"/>
+			  <rect x="368.362" y="214.167" style="opacity:0.01;fill:#FFFFFF;" width="94.27" height="15.719"
+			  onClick="window.location='<%= exhibit_page_path('youcalledmewhat') %>';"/>
+			</g>
+		</svg>
+	</div>
 
-<div id="level3" class="well collapse">
-	<p><%= link_to "X to the Z »", exhibit_path, class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
-	<p><%= link_to "Pimp My Page »", '#', class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
-	<p><%= link_to "West Coast Webpage »", '#', class: "btn btn-wide btn-orange" %></p>
-	<p>Exhibit Information that describes the exhibit with exhibit words for exhibit reasons.</p>
+	<p><%= link_to "Blood Earth Fire »", exhibit_page_path('bloodearthfire'), class: "btn btn-wide btn-orange" %></p>
+	<p><%= parse_exhibit('bloodearthfire', 'subText') %></p>
+	<p><%= link_to "You Called Me What »", exhibit_page_path('youcalledmewhat'), class: "btn btn-wide btn-orange" %></p>
+	<p><%= parse_exhibit('youcalledmewhat', 'subText') %></p>
 </div>

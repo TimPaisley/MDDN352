@@ -11,8 +11,9 @@ Rails.application.routes.draw do
   get 'contact' => 'static_pages#contact'
   get 'levels' => 'exhibits#levels'
   get 'exhibit' => 'exhibits#exhibit'
+  get 'exhibit/:id' => 'exhibits#exhibit', as: :exhibit_page
   get 'display' => 'exhibits#exhibit'
-  get 'display/:id' => 'exhibits#display', as: :display_page
+  get 'exhibits/:ex/display/:id' => 'exhibits#display', as: :display_page
   get 'signup' 	=> 'users#new'
   get    'login'   => 'sessions#new'
   post   'login'   => 'sessions#create'

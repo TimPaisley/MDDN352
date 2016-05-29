@@ -1,0 +1,23 @@
+{
+	"title":"Mountains to Sea",
+	"subText":"Journey through New Zealand's diverse environments, from windy alpine peaks to gloomy seabeds. Discover captivating creatures and precious plants, all adapted to their habitat, and often unique to Aotearoa New Zealand.",
+	"imageName":"mountains-to-sea.jpg",
+	"when":"Long-term exhibition",
+	"where":"Level 2",
+	"cost":"Free entry",
+	"type":"Nature and Science",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"Over 2,500 native plants and animals make up the displays. How many molluscs can you count? Can you find the ship rat eating a wētā? Climb to the bush canopy to get a kererū’s perspective and marvel at our gigantic skeleton of a 21-metre pygmy blue whale."
+		},
+		{
+			"title":"Brought to life",
+			"text":"Listen to kea laugh as they rip into a backpack and hear the crashing waves of the sea as a shag spreads its wings to dry. Through sound, lighting, and design each ecosystem comes alive."
+		},
+		{
+			"title":"X-ray room",
+			"text":"Peek inside whales, dolphins and seals – can you tell each skeleton apart? Our X-ray room reveals a glimpse into Te Papa’s marine mammals collection."
+		}
+	]
+}
