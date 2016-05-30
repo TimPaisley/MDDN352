@@ -1,16 +1,42 @@
 <% exhibit_id = params[:id] %>
 
-<h1><%= parse_exhibit(exhibit_id, 'title') %></h1>
-<h2><%= parse_exhibit(exhibit_id, 'subText') %></h2>
+
+
+<div class="exhibit-header" style="background: url('<%= image_path('exhibit-images/' + exhibit_id) %>');">
+	<h1><%= parse_exhibit(exhibit_id, 'title') %></h1>
+	<h2 style="margin-bottom: 0px;"><%= parse_exhibit(exhibit_id, 'subText') %></h2>
+</div>
+
+<div class="row info-box">
+	<div class="col-xs-3" style="border-right: 1px solid #333">
+		<p><span class="glyphicon glyphicon-map-marker"></span><%= parse_exhibit(exhibit_id, 'where') %></p>
+	</div><div class="col-xs-3" style="border-right: 1px solid #333">
+		<p><span class="glyphicon glyphicon-time"></span><%= parse_exhibit(exhibit_id, 'when') %></p>
+	</div><div class="col-xs-3" style="border-right: 1px solid #333">
+		<p><span class="glyphicon glyphicon-usd"></span><%= parse_exhibit(exhibit_id, 'cost') %></p>
+	</div><div class="col-xs-3">
+		<p><span class="glyphicon glyphicon-tags"></span><%= parse_exhibit(exhibit_id, 'type') %></p>
+	</div>
+</div>	
 	
 <div class='row'>
-	<div class='col-md-3'>
-		<!-- Sidebar -->
-		<p>Where: <span class='text-muted'><%= parse_exhibit(exhibit_id, 'where') %></span></p>
-		<p>When: <span class='text-muted'><%= parse_exhibit(exhibit_id, 'when') %></span></p>
-		<p>Cost: <span class='text-muted'><%= parse_exhibit(exhibit_id, 'cost') %></span></p>
-		<p>Type: <span class='text-muted'><%= parse_exhibit(exhibit_id, 'type') %></span></p>
+	<div class='col-md-9'>
+		<!-- Collapse Button -->
+		<p><a class="btn btn-wide btn-green" data-toggle="collapse" href="#displays" aria-expanded="false">Displays</a></p>
 
+		<div id="displays" class="collapse">
+			<!-- Displays -->
+			<% Dir.foreach('public/assets/' + exhibit_id) do |display| %>
+				<% unless display == '.' or display == '..' %>
+					<% display_id = display[0..-(File.extname(display).length + 1)] %>
+					<% display_name = parse_display(exhibit_id, display_id, 'title') %>
+				 	<p><%= link_to display_name + ' »', display_page_path(exhibit_id, display_id), class: "btn btn-wide btn-green-outline" %></p>
+			 	<% end %>
+			<% end %>
+		</div>
+	</div>
+
+	<div class='col-md-3'>
 
 		<% para = parse_exhibit(exhibit_id, 'paragraph') %>
 		<% para.each do |para| %>
@@ -18,17 +44,6 @@
 				<h3><%= para['title'] %></h3>
 			<% end %>
 			<p><%= para['text'] %></p>
-		<% end %>
-	</div>
-
-	<div class='col-md-9'>
-		<!-- Display Buttons -->
-		<% Dir.foreach('public/assets/' + exhibit_id) do |display| %>
-			<% unless display == '.' or display == '..' %>
-				<% display_id = display[0..-(File.extname(display).length + 1)] %>
-				<% display_name = parse_display(exhibit_id, display_id, 'title') %>
-			 	<p><%= link_to display_name, display_page_path(exhibit_id, display_id), class: "btn btn-wide btn-orange" %></p>
-		 	<% end %>
 		<% end %>
 	</div>
 </div>
