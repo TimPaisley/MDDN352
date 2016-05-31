@@ -332,3 +332,27 @@ input {
     color: $state-danger-text;
   }
 }
+
+/* Q */
+
+.q-wrapper {
+  background: rgba(255, 255, 255 ,0.6);
+  padding-top: 5px;
+
+  h3 {
+    margin: 0px;
+    font-size: 18px;
+  }
+}
+
+.q-timer {
+  font-family: 'Lucida Console', serif;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.q-help {
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
