@@ -125,33 +125,27 @@ p {
 
 #logo {
   font-family: 'Roboto Slab', serif;
-  float: left;
-  margin-right: 10px;
   font-size: 1.7em;
-  color: $gray-dark;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
   font-weight: bold;
+  color: $acha-lily-green;
+
   &:hover {
-    color: $gray-light;
+    color: white;
     text-decoration: none;
   }
 }
 
 .navbar {
   margin-top: 0px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #333;
   border: 0px;
 }
 
 .navbar-header {
-  padding-left: 15px;
-}
-
-#logo {
-  color: white;
-  opacity: 1.0;
+  text-align: center !important;
+  padding: 10px;
 }
 
 .jumbotron {
@@ -163,18 +157,19 @@ p {
 
 footer {
   clear: both;
-  position: relative;
-  bottom: 10px;
-  left: 0px;
+  position: fixed;
   width: 100%;
-  margin-top: 45px;
-  padding-top: 5px;
-  background: black;
-  opacity: 0.6;
-  color: white;
+  bottom: 0px;
+  left: 0px;
 
-  p {
+  background-color: #333;
+
+  .row {
     text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 0px;
+    padding: 10px;
+    color: $acha-lily-green;
   }
 }
 
