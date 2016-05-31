@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="820px" height="800px" viewBox="0 0 595.28 566.93" style="enable-background:new 0 0 595.28 566.93; overflow-x: auto; overflow-y: auto;" xml:space="preserve">
+<g id="Layer_1">
+  
+    <image style="overflow:visible;" width="5206" height="3754" xlink:href="level4.jpg"  transform="matrix(0.1442 0 0 0.151 -71 0)">
+  </image>
+</g>
+<g id="Layer_2">
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M511.604,182.758l-60.135,7.095c0,0,4.041,14.092,16.846,26.268
+    c10.537,10.02,27.009,18.742,52.046,17.247L511.604,182.758z" onClick="window.location='exhibit.html?exhibit=tehukaatai';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M400.092,273.573l131.947,53.921c0,0,11.093-3.784,15.18-3.784s0-57.705,0-57.705
+    l-21.602-8.987l-5.255-23.65c0,0-31.113,2.399-52.046-17.247l-27.939,43.262l-25.105-8.514c0,0-20.305-2.693-12.261,12.246
+    C403.011,263.115,403.595,267.897,400.092,273.573z" onClick="window.location='exhibit.html?exhibit=manawhenua';"/>
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="328.28,177.555 412.352,45.117 435.122,55.996 400.092,111.336 
+    451.469,131.197 434.538,159.108 429.867,159.581 402.427,208.147   " onClick="window.location='exhibit.html?exhibit=temarae';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M307.426,213.503l20.855-35.947l74.147,30.592l27.44-48.566l4.671-0.473l4.671,32.637
+    l-18.683,39.258c0,0-7.006,8.514-20.434,8.987c-13.428,0.473-14.012,8.041-14.012,8.041L307.426,213.503z" onClick="window.location='exhibit.html?exhibit=manawhenua';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M273.983,263.588l33.442-50.085l78.654,34.529c0,0-3.503,2.365-3.503,8.514
+    c0,6.149,5.255,8.295-7.006,15.263l-72.396-23.777l-14.596,21.758L273.983,263.588z" onClick="window.location='exhibit.html?exhibit=whititera';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M243.04,315.196l30.943-51.608l14.596,6.201l7.854-11.708l20.754,10.289
+    c0,0-16.347,26.015-14.596,49.191L243.04,315.196z" onClick="window.location='exhibit.html?exhibit=espresso';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M381.409,339.792c0,0-4.671-40.204,18.683-66.219l131.947,53.921
+    c0,0,41.452-11.825,51.961,15.609c0,0-14.596,26.015-54.297,0L381.409,339.792z" onClick="window.location='exhibit.html?exhibit=treatyofwaitangi';"/>
+  <rect x="376.738" y="370.828" style="opacity:0.01;fill:#FFFFFF;" width="101.004" height="14.916" onClick="window.location='exhibit.html?exhibit=themixingroom';"/>
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="381.409,339.792 376.738,367 477.742,367 477.742,341.42  " onClick="window.location='exhibit.html?exhibit=passports';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M559.479,427.296h-56.632c0,0,0-17.974,7.59-19.156
+    c7.59-1.182,2.919-9.223,2.919-9.223h46.123V427.296z" onClick="window.location='exhibit.html?exhibit=planetpasifika';"/>
+  <rect x="419.358" y="427.296" style="opacity:0.01;fill:#FFFFFF;" width="45.539" height="28.38" onClick="window.location='exhibit.html?exhibit=goldendays';"/>
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="200.42,441.485 193.414,457.567 298.505,457.567 298.505,441.485  " onClick="window.location='exhibit.html?exhibit=inspirationstation';"/>
+  <path style="opacity:0.01;fill:#FFFFFF;" d="M209.762,430.607h154.716v-72.841c0,0-5.255-18.875-24.521-15.823l-74.731-0.334
+    L209.762,430.607z" onClick="window.location='exhibit.html?exhibit=sliceofheaven';"/>
+  <polygon style="opacity:0.01;fill:#FFFFFF;" points="477.742,388.983 400.092,388.983 400.092,423.5 501,423.5 510.437,408.139 
+    514.062,406.242 513.356,398.916 559.479,398.916 559.479,354.665 543.044,350.4 529.703,343.103 477.742,341.943   " onClick="window.location='exhibit.html?exhibit=tangataolemoana';"/>
+</g>
+</svg>

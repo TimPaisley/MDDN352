@@ -1,0 +1,36 @@
+{
+	"title":"Te Marae",
+	"subText":"Te Marae offers a singular experience within Te Papa and is also unique within Aotearoa New Zealand. It is Te Papa’s response to the challenge of creating an authentic yet inclusive marae (communal meeting place) for the 21st century.",
+	"imageName":"temarae.jpg",
+	"when":"Long-term exhibition",
+	"where":"Level 4",
+	"cost":"Free entry",
+	"type":"Maori",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"The space comprises a marae ātea (place of encounter) and wharenui (meeting house) that cater for all the purposes such places customarily serve. It is also a living exhibition that interprets for visitors the meaning of the marae experience, and acts as a showcase for contemporary Māori art and design."
+		},
+		{
+			"title":"Bicultural identity",
+			"text":"Like other marae, this one is about identity – here, it is our nation's bicultural identity that is addressed. Te Marae embodies the spirit of bicultural partnership that lies at the heart of the Museum, and is based on the idea that Te Papa is a forum for the nation. All people have a right to stand on this marae through a shared whakapapa (genealogy) and the mana power of the taonga treasures held in Te Papa's collections."
+		},
+		{
+			"title":"Welcoming to all",
+			"text":"All cultures can feel at home on this marae. Iwi tribes can identify and relate to their ancestors through the striking contemporary carvings. So too can other cultures. Carved ancestral images reflect the occupations and origins of newcomers over the last 200 years – farmers, educators, clergy, parents, artists –linked with Pākehā, Asian, and Polynesian design references."
+		},
+		{
+			"title":"The meaning behind Te Marae",
+			"text":"All people live in Te Ao Marama, the world of light, created when our ancestral parents, Ranginui and Papatūānuku, were forced apart. The floor of Te Marae can be seen as Papa, the Earth mother, with Rangi, the sky father, above. Our wharenui meeting house' can be seen as Tāne, the son who forced his parents apart, thereby opening a space for us to live in. As the children of Rangi and Papa established themselves in this world, they each developed special responsibilities – Tāwhirimātea, for the wind, Tangaroa, for the oceans, Tāne, for the forest, and so forth. Thus it is appropriate that our marae is situated here, at the confluence of these elements."
+		},
+		{
+			"title":"Protocols",
+			"text":"When the elements come together, as when people come together, there can sometimes be turbulence. For this reason, it was necessary for the children of Rangi and Papa to develop protocols for meeting and ways for recognising one another. These protocols have been passed down for generations and are used on marae throughout the country, with minor variations. The protocols on Te Papa's marae were developed after extensive consultation. This ensured their integrity, as well as the flexibility needed to accommodate all iwi."
+		},
+		{
+			"title":"Naming our wharenui (meeting house)",
+			"text":"The name of our wharenui meeting house on Te Marae is Te Hono ki Hawaiki. This name speaks of the connection to Hawaiki, the place of our spiritual origins. Accepting this spiritual idea of Hawaiki enables all people to regard Te Marae as a place for them to stand – a place to which they can belong. Rongomaraeroa is the name of the whole marae, including entrances and pūwhara (lookout)."
+		}
+
+	]
+}

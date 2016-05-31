@@ -69667,3 +69667,1577 @@ Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf3
 
 
 Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 22:36:32 +1200
+
+
+Started GET "/" for ::1 at 2016-05-31 22:43:57 +1200
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered static_pages/home.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 141ms (Views: 139.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 22:43:58 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 153ms (Views: 152.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-31 22:44:05 +1200
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 146ms (Views: 145.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 22:44:12 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 146ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:02:13 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (187.7ms)
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:02:58 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 150ms (Views: 149.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:02:58 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:02:58 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:02:58 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:02:58 +1200
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:02:58 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:02:58 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:02:59 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:03:25 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (25.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 177ms (Views: 176.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:03:25 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:03:26 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:03:46 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (23.5ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:03:52 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (17.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 148ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:03:52 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:03:53 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:04:04 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (25.7ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:04:11 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (21.9ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:04:27 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (24.0ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:04:35 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (28.8ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:04:41 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (24.6ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:04:47 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (22.7ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:04:54 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (24.4ms)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:05:01 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 142ms (Views: 140.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:05:01 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:01 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:01 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:01 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:01 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:05:01 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:05:01 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:05:02 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:05:15 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (23.4ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:05:28 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:05:36 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (25.5ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:05:45 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 145ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:05:45 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:05:46 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:05:57 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 143ms (Views: 142.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:57 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:57 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:05:57 +1200
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:05:57 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:57 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:05:57 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:05:57 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:05:57 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:05:58 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:06:01 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (23.5ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:06:09 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (16.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 143ms (Views: 142.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:06:10 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:07:12 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (24.0ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:07:19 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (15.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 149ms (Views: 147.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:07:19 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:07:49 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 143ms (Views: 142.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:07:49 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:07:50 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:07:50 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:07:50 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:07:50 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:07:57 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (23.5ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:08:01 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (21.3ms)
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:08:16 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (23.5ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:08:56 +1200
+Processing by ExhibitsController#levels as HTML
+  Rendered exhibits/levels.html.erb within layouts/application (24.1ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:09:08 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 136ms (Views: 135.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:09:08 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:09:09 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:09:14 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (22.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 150ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:09:14 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:09:15 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:09:15 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:09:15 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:14:23 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (150.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 304ms (Views: 303.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:14:23 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:14:24 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:14:24 +1200
+
+
+Started GET "/assets/exhibit-maps/level56-24868ba325103f7a64106845188f29e41f575248ee1c94c25cc1cd7151a9f881.jpg" for ::1 at 2016-05-31 23:14:24 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:14:56 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 144ms (Views: 142.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/exhibits.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/custom.self-7e38e9294a8777399891dc6fadda5983b7639ddf731bdc559a5da397b614d403.css?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/exhibits.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/exhibit-maps/level1-024f99dc2f5c49be5b755e4c12b8222b0e9c9efac33c76b6200235583ca4c6cd.png" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/background-c6b2349451cae8682bad187ca4bbe20efac5c994db585656149142c94fe8f5cc.jpg" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/exhibit-maps/level2-2e81b989b791f0c68b9dd9e2e7b2de1957b7a034a014419957ceaeba5f2aff6c.jpg" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/exhibit-maps/level3-defddc161a1c5f5c6bca397a26c8d6182c6b6d27a03e0f5a677d8d80057a5a20.jpg" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/exhibit-maps/level4-1fce1b68e7815ae7194334c77627c97d984c1a1713de816dcc4dc8358cdb8a9f.jpg" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/assets/exhibit-maps/level56-24868ba325103f7a64106845188f29e41f575248ee1c94c25cc1cd7151a9f881.jpg" for ::1 at 2016-05-31 23:14:56 +1200
+
+
+Started GET "/exhibit/goldendays" for ::1 at 2016-05-31 23:15:07 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"goldendays"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/exhibit.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 153ms (Views: 151.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/exhibit-images/goldendays-aac4b7c3bc19ffcc4da8d6bc35bdf71e294b7c3423f766b333d02f55e62b52aa.png" for ::1 at 2016-05-31 23:15:07 +1200
+
+
+Started GET "/" for ::1 at 2016-05-31 23:15:34 +1200
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 137ms (Views: 136.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:16:14 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 154ms (Views: 153.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-31 23:16:33 +1200
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 145ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:16:36 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 146ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exhibit/passports" for ::1 at 2016-05-31 23:16:55 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"passports"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/exhibit.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 130ms (Views: 130.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/exhibit-images/passports-cad036ef1fdf9c24c094cbc04cf4a48b08787ba5c0d856fa653a65b1ee4ea1ea.png" for ::1 at 2016-05-31 23:16:56 +1200
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:17:02 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/levels.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 154.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exhibit/gallipoli" for ::1 at 2016-05-31 23:17:11 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"gallipoli"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/exhibit.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 151.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/exhibit-images/gallipoli-4482ee203ee22460e86ac5c9c28e1fcd379af597d57743e9aaa2abccc1b17c4a.png" for ::1 at 2016-05-31 23:17:11 +1200
+
+
+Started GET "/exhibits/gallipoli/display/display1" for ::1 at 2016-05-31 23:17:13 +1200
+Processing by ExhibitsController#display as HTML
+  Parameters: {"ex"=>"gallipoli", "id"=>"display1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered exhibits/display.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 144ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/display-images/display1.jpg" for ::1 at 2016-05-31 23:17:13 +1200
+
+ActionController::RoutingError (No route matches [GET] "/display-images/display1.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+  web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+  web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (861.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (570.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (1132.6ms)
+
+
+Started GET "/exhibit/gallipoli" for ::1 at 2016-05-31 23:17:20 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"gallipoli"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered exhibits/exhibit.html.erb within layouts/application (23.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 181ms (Views: 180.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1" for ::1 at 2016-05-31 23:17:23 +1200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 138ms (Views: 136.4ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/logout" for ::1 at 2016-05-31 23:17:29 +1200
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pzrxO8uicQBvKo+Q5IoX/3m2Sp61ubdUKByPd6BbK7kQLUrxwyKgzumHEVDN8M6POWWHNq56MQ4/uCYlg28o0Q=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-31 23:17:29 +1200
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 135ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-05-31 23:17:30 +1200
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 157ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-31 23:17:34 +1200
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered static_pages/home.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (4.5ms)
+Completed 200 OK in 163ms (Views: 162.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2016-05-31 23:17:35 +1200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (14.0ms)
+Completed 200 OK in 168ms (Views: 167.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-31 23:17:37 +1200
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 142ms (Views: 141.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:17:40 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/levels.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+Completed 200 OK in 151ms (Views: 151.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exhibit/bushcity" for ::1 at 2016-05-31 23:17:48 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"bushcity"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/exhibit.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 139ms (Views: 138.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/exhibit-images/bushcity-2d54c295cdc6b396ffffef50264b1fcdba687c37b30328c14b580ef3bf8048d2.png" for ::1 at 2016-05-31 23:17:48 +1200
+
+
+Started GET "/exhibits/bushcity/display/display1" for ::1 at 2016-05-31 23:17:50 +1200
+Processing by ExhibitsController#display as HTML
+  Parameters: {"ex"=>"bushcity", "id"=>"display1"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/display.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 140ms (Views: 139.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/display-images/display1.jpg" for ::1 at 2016-05-31 23:17:50 +1200
+
+ActionController::RoutingError (No route matches [GET] "/display-images/display1.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+  web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+  web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (885.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (552.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (1124.0ms)
+
+
+Started GET "/exhibit/bushcity" for ::1 at 2016-05-31 23:18:03 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"bushcity"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/exhibit.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exhibit/bushcity" for ::1 at 2016-05-31 23:18:13 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"bushcity"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/exhibit.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+Completed 200 OK in 133ms (Views: 132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:18:22 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/levels.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 161ms (Views: 160.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exhibits/bushcity/display/display1" for ::1 at 2016-05-31 23:18:27 +1200
+Processing by ExhibitsController#display as HTML
+  Parameters: {"ex"=>"bushcity", "id"=>"display1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/display.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 153ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/display-images/display1.jpg" for ::1 at 2016-05-31 23:18:28 +1200
+
+ActionController::RoutingError (No route matches [GET] "/display-images/display1.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+  web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+  web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (851.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (27.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (663.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (1278.1ms)
+
+
+Started GET "/exhibits/bushcity/display/display1" for ::1 at 2016-05-31 23:18:31 +1200
+Processing by ExhibitsController#display as HTML
+  Parameters: {"ex"=>"bushcity", "id"=>"display1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/display.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 133ms (Views: 132.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/display-images/display1.jpg" for ::1 at 2016-05-31 23:18:32 +1200
+
+ActionController::RoutingError (No route matches [GET] "/display-images/display1.jpg"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+  web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+  web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (843.9ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (653.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (1215.6ms)
+
+
+Started GET "/exhibit/bushcity" for ::1 at 2016-05-31 23:18:36 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"bushcity"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/exhibit.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 158ms (Views: 157.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-31 23:18:51 +1200
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered static_pages/home.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 128ms (Views: 128.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-05-31 23:19:01 +1200
+Processing by ExhibitsController#levels as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/levels.html.erb within layouts/application (13.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 153ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exhibit/ngatoi" for ::1 at 2016-05-31 23:19:17 +1200
+Processing by ExhibitsController#exhibit as HTML
+  Parameters: {"id"=>"ngatoi"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered exhibits/exhibit.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 151ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/exhibit-images/ngatoi-e8e6be9a570392e43c4cb9715a8dc1c4f5b9236da1278e11e5431cca9c8a57b8.png" for ::1 at 2016-05-31 23:19:17 +1200

@@ -1,0 +1,43 @@
+{
+	"title":"Golden Days",
+	"subText":"Celebrate what makes us Kiwis tick. Junk shop objects come to life as historic moments play onscreen.",
+	"imageName":"goldendays.jpg",
+	"when":"Long-term exhibition",
+	"where":"Level 4",
+	"cost":"Free entry",
+	"type":"History",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"When: Every 20 minutes from 10am (film lasts 13 minutes) Bookings: Although booking isn’t always necessary, avoid disappointment by booking at Golden Days on your arrival at Level 4. Golden Days is popular! Celebrate what makes us Kiwis tick. Enter our cluttered junk shop and watch the objects come to life as key moments from our country’s past play on the big screen. Golden Days is one of Te Papa’s most innovative and popular places, full of magic and drama. Take a seat and step back in time."
+		},
+		{
+			"title":"Historic events",
+			"text":"A high-impact film whisks you through our nation’s tragedies and triumphs, both personal and national. From a beach ball bouncing across the hot sand to Jack Lovelock bringing home Olympic gold, and defining moments such as the Erebus, Wahine, and Tangiwai disasters. From pride in the All Blacks to the achievements of Dame Kiri Te Kanawa, and the nostalgia of calf day, plus much more."
+		},
+		{
+			"title":"How we made Golden Days",
+			"text":"Here are some of the people who made this ingenious automated object theatre."
+		},
+		{
+			"title":"Robust robotics",
+			"text":"Model maker Rob Uivel built the robotics, which had to sustain years of use. In total, there are 26 different motorised robots, including a motor mower, machine gun, photograph album, and tūī."
+		},
+		{
+			"title":"Conducting a cacophony",
+			"text":"Alan Honey was asked to produce computer programs that direct the images and audio in sequence with the robotics."
+		},
+		{
+			"title":"Props pursuit",
+			"text":"Dean Cato supervised the buying of all of the props for the junk shop. This involved a long search for items that would be typical of a junk shop and have a recognisable New Zealand identity or flavour."
+		},
+		{
+			"title":"Finding the film",
+			"text":"Head researcher Kay Seatter-Dunbar and other researchers travelled around New Zealand searching for archival film footage and images, both still and moving. One of the most exciting finds was colour footage filmed in Greymouth of the 1953 visit by Queen Elizabeth II. The 13-minute film is projected onto a four by two-metre screen, has a stereophonic sound track, and is made up of 2,500 images of New Zealand. The junk shop view of the street represents a New Zealand city at 5pm."
+		},
+		{
+			"title":"Antique audio",
+			"text":"Archival audio and moving image footage supplied by Ngā Taonga Sound & Vision (link is external)."
+		}
+	]
+}

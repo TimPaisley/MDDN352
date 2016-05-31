@@ -1,0 +1,44 @@
+{
+	"title":"Mana Whenua",
+	"subText":"Mana Whenua takes you on a stirring journey that explores and celebrates Māori as tangata whenua (the indigenous people) of Aotearoa New Zealand.",
+	"imageName":"manawhenua.jpg",
+	"when":"Long-term exhibition",
+	"where":"Level 4",
+	"cost":"Free entry",
+	"type":"Maori",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"Stories of voyaging, adaptation, survival, conflict, trial, and triumph are told through a powerful mix of taongataonga treasures, oral histories, and contemporary works."
+		},
+		{
+			"title":"Layers of meaning",
+			"text":"Experience something of the richness, complexity, and dynamism of Māori life and heritage. The concept of ‘mana whenua’ has many layers of meaning. It tells of important relationships that Māori have with whenua (land) and of the value placed upon the land within the culture."
+		}
+		,
+		{
+			"title":"Taonga tuku iho (treasures handed down)",
+			"text":"The exhibition celebrates the manamana power of the culture through taonga tuku iho (treasures handed down) such as the woven and carved works, wakawaka canoes, and whare (buildings) such as the meeting house Te Hau ki Turanga and the storehouse Te Takinga. These taonga connect through whakapapa (genealogy) to living descendants and resonate through their voices in waiatawaiata song and kōrerokōrero personal narratives. Contemporary Māori artworks explore and reinforce the continuum of tīpunatīpuna ancestral culture and whakapapawhakapapa genealogy, linking past generations to present day descendants and the dynamics of cultural continuity."
+		}
+		,
+		{
+			"title":"Te Hau ki Turanga, meeting house",
+			"text":"Inside the body of Te Hau ki Turanga, one of the oldest and most significant meeting houses in existence, a sound and light presentation enables you to experience a unique perspective on the Māori world."
+		}
+		,
+		{
+			"title":"Te Aurere, modern voyaging waka",
+			"text":"Mana Whenua is also about journeys and voyages through time. The ancestral voyages from Hawaiki, a distant place of origin, are presented through the story of Te Aurere, a modern voyaging waka."
+		}
+		,
+		{
+			"title":"Reconstructing a wharepuni (domestic house)",
+			"text":"Also in Mana Whenua, Ngāti Hinewaka, the people of Palliser Bay, narrate their experiences of reconstructing a 500-year-old wharepuni (domestic house)."
+		}
+		,
+		{
+			"title":"The challenge of developing Mana Whenua",
+			"text":"The unifying concept for the many themes and stories in Mana Whenua is whakapapawhakapapa genealogy and identity, evoking an experience that Māori and many other peoples will readily identify with. The exhibition has been, and continues to be, developed through extensive consultation and partnerships with iwiiwi tribes regarding their taongataonga treasures. Iwis'Iwis' tribes’ direct involvement in the selection, presentation, and interpretation of taonga acknowledges the living nature of taongataonga treasures. It also ensures that the exhibition speaks with the manamana authority of the people rather than from an 'other' perspective. The special relationship between Māori and their taongataonga treasures is a vital dimension in the life of Te Papa now and into the future."
+		}
+	]
+}

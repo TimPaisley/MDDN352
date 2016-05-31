@@ -1,0 +1,35 @@
+{
+	"title":"Nga Toi | Arts Te Papa",
+	"subText":"Discover the national art collection.",
+	"imageName":"ngatoi.jpg",
+	"when":"Long-term exhibition",
+	"where":"Levels 5 & 6",
+	"cost":"Free entry",
+	"type":"Art",
+	"paragraph":[
+		{
+			"title":"Current exhibitions",
+			"text":""
+		},
+		{
+			"title":"New Zealand Photography Collected",
+			"text":"Brings hundreds of rare and fascinating photographs out of Te Papa’s storerooms and onto the gallery walls. From 19th-century portraits to family snapshots, and dramatic landscapes to modern art photography, this inspiring exhibition includes works by luminaries such as Alfred Burton, Brian Brake, Marti Friedlander, Laurence Aberhart, Anne Noble, and Gavin Hipkins. The exhibition coincides with a major new book from Te Papa Press, New Zealand Photography Collected, written by Te Papa curator Athol McCredie."
+		},
+        {
+			"title":"Carleton Watkins",
+			"text":"Celebrates the 150-year anniversary of the museum with a selection of large-scale prints by one of the foremost American photographers of the 1800s, Carleton Watkins. The director of the Colonial Museum, James Hector, acquired the prints in 1888."
+		},
+        {
+			"title":"Open Home",
+			"text":"Showcases works by Derrick Cherrie, L. Budd, Julian Dashper, and others, that deal with what happens when homes go ‘on display’."
+		},
+        {
+			"title":"The Art of Remembrance",
+			"text":"In 2015 contemporary New Zealand artist Max Gimblett made seven thousand brass quatrefoils to hang on the exterior of St David’s soldiers’ Memorial Church in Auckland. Each quatrefoil represents a New Zealander who served in World War 1, and is intended as a public message of peace and hope. Several hundred of these quatrefoils will be on display in the entrance of Ngā Toi | Arts Te Papa to coincide with Anzac Day, 2016."
+		},
+        {
+			"title":"Inspired: Ceramics and jewellery shaped by the past",
+			"text":"Discover the links between contemporary decorative arts and ancient objects. See how a Picasso jug reflects the drama and techniques of Greek red-figure pottery, and how the quirky ceramic work of New Zealander Richard Stratton echoes the patterns in Chinese cobalt-blue porcelain. This exhibition brings together some of the newest and oldest items in Te Papa’s collection, including work by many of this country’s most acclaimed ceramic artists and jewellers."
+		}
+	]
+}

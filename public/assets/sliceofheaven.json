@@ -1,0 +1,19 @@
+{
+	"title":"Slice of Heaven",
+	"subText":"20th Century Aotearoa",
+	"imageName":"sliceofheaven.jpg",
+	"when":"Long term exhibition",
+	"where":"Level 4",
+	"cost":"Free entry",
+	"type":"People and History",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"Aotearoa New Zealand changed dramatically in the 20th century. Discover what united and divided us, and shaped our lives today. Decide whether New Zealand really is a ‘slice of heaven’."
+		},
+		{
+			"title":"Discover the past",
+			"text":"The 1900s saw Māori, women, and gay people all stand up for their rights. The country fought in two world wars – and then took a stand against nuclear weapons. The state grew – and shrank again. Find out about these and other historic events in this kaleidoscopic view of New Zealand life from the century that was."
+		}
+	]
+}
