@@ -36,3 +36,13 @@
 	</div>
 </div>
 
+<footer class="footer">
+  <div class="row">
+    <div class="col-xs-4">
+    	<span class="glyphicon glyphicon-home"></span> <%= link_to "Home", root_path %>
+    </div><div class="col-xs-4">
+      	<span class="glyphicon glyphicon-lock"></span> <%= link_to "Log Out", logout_path, method: "delete" %>
+    </div><div class="col-xs-4">
+    	<span class="glyphicon glyphicon-question-sign"></span> <%= link_to "Help", help_path %>
+    </div>
+</footer>

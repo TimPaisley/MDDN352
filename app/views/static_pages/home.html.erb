@@ -1,5 +1,21 @@
 <h1><%= image_tag('logo.png', size: '150x150') %></h1>
-<h1 class="main-title" style="margin-bottom: 0px;">My Te Papa</h1><br />
-<h3 class="sub-title" style="margin-top: 0px;">Your all-in-one tour guide as you dive into culture, history and art!</h2>
+<h1 class="main-title" style="margin-bottom: 0px;">Te Papa<br />Companion</h1><br />
+<h3 class="sub-title" style="margin-top: 0px;">Your all-in-one tour guide as you dive into culture, history and art!</h3>
 
 <center><%= link_to "View the Exhibits", levels_path, class: "btn btn-lg btn-green" %></center>
+
+<footer class="footer">
+	<div class="row">
+		<div class="col-xs-4">
+			<span class="glyphicon glyphicon-info-sign"></span> <%= link_to "About", about_path %>
+		</div><div class="col-xs-4">
+		<span class="glyphicon glyphicon-user"></span> 
+		<% if logged_in? %>
+		<%= link_to "Profile", current_user %>
+		<% else %>
+		<%= link_to "Log In", login_path %>
+		<% end %>
+	</div><div class="col-xs-4">
+	<span class="glyphicon glyphicon-question-sign"></span> <%= link_to "Help", help_path %>
+</div>
+</footer>

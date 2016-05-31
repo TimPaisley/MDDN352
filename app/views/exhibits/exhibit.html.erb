@@ -9,20 +9,20 @@
 
 <div class="row info-box">
 	<div class="col-xs-3">
-		<p><span class="glyphicon glyphicon-map-marker"></span><%= parse_exhibit(exhibit_id, 'where') %></p>
+		<p><span class="glyphicon glyphicon-info glyphicon-map-marker"></span><%= parse_exhibit(exhibit_id, 'where') %></p>
 	</div><div class="col-xs-3" style="border-right: 1px solid #333; border-left: 1px solid #333;">
-		<p><span class="glyphicon glyphicon-time"></span><%= parse_exhibit(exhibit_id, 'when') %></p>
-	</div><div class="col-xs-3" style="border-right: 1px solid #333; border-left: 1px solid #333;">
-		<p><span class="glyphicon glyphicon-usd"></span><%= parse_exhibit(exhibit_id, 'cost') %></p>
+		<p><span class="glyphicon glyphicon-info glyphicon-time"></span><%= parse_exhibit(exhibit_id, 'when') %></p>
+	</div><div class="col-xs-3" style="border-right: 1px solid #333;">
+		<p><span class="glyphicon glyphicon-info glyphicon-usd"></span><%= parse_exhibit(exhibit_id, 'cost') %></p>
 	</div><div class="col-xs-3">
-		<p><span class="glyphicon glyphicon-tags"></span><%= parse_exhibit(exhibit_id, 'type') %></p>
+		<p><span class="glyphicon glyphicon-info glyphicon-tags"></span><%= parse_exhibit(exhibit_id, 'type') %></p>
 	</div>
 </div>	
 	
 <div class='row'>
 	<div class='col-md-9'>
 		<!-- Collapse Button -->
-		<p><a class="btn btn-wide btn-green" data-toggle="collapse" href="#displays" aria-expanded="false">Displays</a></p>
+		<p><a class="btn btn-wide btn-green" data-toggle="collapse" href="#displays" aria-expanded="false">Displays <span class="glyphicon glyphicon-chevron-down"></span></a></p>
 
 		<div id="displays" class="collapse">
 			<!-- Displays -->
@@ -47,3 +47,19 @@
 		<% end %>
 	</div>
 </div>
+
+<footer class="footer">
+  <div class="row">
+    <div class="col-xs-4">
+      <span class="glyphicon glyphicon-chevron-left"></span> <%= link_to "Back", levels_path %>
+    </div><div class="col-xs-4">
+      	<span class="glyphicon glyphicon-user"></span>
+    	<% if logged_in? %>
+			<%= link_to "Profile", current_user %>
+		<% else %>
+			<%= link_to "Log In", login_path %>
+		<% end %>
+    </div><div class="col-xs-4">
+      <span class="glyphicon glyphicon-question-sign"></span> <%= link_to "Help", help_path %>
+    </div>
+</footer>
