@@ -27,11 +27,10 @@
 	
 <div class='row'>
 	<div class='col-md-9'>
-		<!-- Collapse Button -->
-		<p><a class="btn btn-wide btn-green" data-toggle="collapse" href="#displays" aria-expanded="false">Displays <span class="glyphicon glyphicon-chevron-down"></span></a></p>
-
-		<div id="displays" class="collapse">
-			<!-- Displays -->
+		<!-- Displays -->
+		<% if File.directory?('public/assets/' + exhibit_id) %>
+			<p><a class="btn btn-wide btn-green" data-toggle="collapse" href="#displays" aria-expanded="false">Displays <span class="glyphicon glyphicon-chevron-down"></span></a></p>
+			<div id="displays" class="collapse">
 			<% Dir.foreach('public/assets/' + exhibit_id) do |display| %>
 				<% unless display == '.' or display == '..' %>
 					<% display_id = display[0..-(File.extname(display).length + 1)] %>
@@ -39,7 +38,10 @@
 				 	<p><%= link_to display_name + ' »', display_page_path(exhibit_id, display_id), class: "btn btn-wide btn-green-outline" %></p>
 			 	<% end %>
 			<% end %>
-		</div>
+			</div>
+		<% else %>
+			<p style="text-align: center; background-color: rgba(255, 255, 255, 0.6)">This exhibit is not yet NFC enabled. Sorry for any inconvenience.</p>
+		<% end %>
 	</div>
 
 	<div class='col-md-3'>

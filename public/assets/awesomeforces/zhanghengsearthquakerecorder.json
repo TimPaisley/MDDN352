@@ -1,0 +1,58 @@
+{
+	"title":"Zhang Heng’s Earthquake Recorder",
+	"subText":"",
+	"exhibit":"Awesome Forces",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"More than 1800 years ago, Zhang Heng, a Chinese astronomer and mathematician during the Eastern Han dynasty, developed this device for recording the ground waves produced by earthquakes. It is the earliest known instrument of its kind.",
+			"image":"NULL"
+		},
+		{
+			"title":"NULL",
+			"text":"The instrument works by inertia. The massive vase is fixed to a chassis to prevent it from toppling. When waves from an earthquake move the ground, the vase and chassis shake in the same direction as the passage of the waves. Inside the vase there is a heavy upside-down pendulum swinging on a fulcrum low in the vase. This sways in the direction of the movement of the vase, but inertia means that its movement is set off more slowly than that of the vase itself.",
+			"image":"NULL"
+		},
+		{
+			"title":"NULL",
+			"text":"On the outside you can see eight dragons evenly spaced around the vase and eight toads with mouths agape below them on the plinth. Each dragon on the outside of the vase has a rod attached to it inside the vase. When the pendulum moves out of phase with the vase, it collides with the rod in the path of its sway. The impact on the rod opens the jaws of the dragon, and a brass ball sitting in the dragon’s mouth falls out and into the open mouth of the toad directly below it.",
+			"image":"NULL"
+		},
+		{
+			"title":"NULL",
+			"text":"So if you see a brass ball in a toad’s mouth, you will know what direction the seismic waves have passed along, and thus the direction of the source of the earthquake. You will not know, however, the intensity, or range of the quake.",
+			"image":"NULL"
+		},
+		{
+			"title":"NULL",
+			"text":"It is fascinating to speculate that a number of these instruments, set up in various places, could have made an earthquake-recording network for identifying the epicentres of earthquakes, similar to today’s seismographs. But nobody knows exactly what use was made of the information the instrument provided, or what role it had in Chinese civil emergency operations!",
+			"image":"NULL"
+		},
+		{
+			"title":"NULL",
+			"text":"Whatever the case, its invention reflects people’s concern with monitoring the effects of one of the Earth’s most powerful natural forces – a force that can have devastating social consequences. The Chinese have a very long-standing tradition of the scientific study of earthquakes – both locating and predicting them. Here we can see this tradition linked with a remarkable example of technology – another long-standing tradition in Chinese culture.",
+			"image":"NULL"
+		},
+		{
+			"title":"NULL",
+			"text":"The Zhang Heng device featured in studies leading to the development of modern seismographs. Dr John Milne described it in the nineteenth century, appreciating the principle of inertia used in the set-up of the pendulum. His own seismograph (which was in use here at the time of the 1931 Hawke’s Bay earthquake) and subsequent seismographs were based on refinements of this same principle.",
+			"image":"NULL"
+		},
+		{
+			"title":"NULL",
+			"text":"The Zhang Heng device at Te Papa is a half-size bronze replica of the original instrument. It was given to Te Papa and the people of Wellington by the people of the city of Beijing. It is the first of this type to leave China.",
+			"image":"NULL"
+		},
+		{
+			"title":"NULL",
+			"text":"Text originally published in Tai Awatea, Te Papa's onfloor multimedia database (1998).",
+			"image":"NULL"
+		}
+	],
+	"related":[
+		{
+			"title":"See on Wikipedia",
+			"url":"https://en.wikipedia.org/wiki/Zhang_Heng"
+		}
+	]
+}

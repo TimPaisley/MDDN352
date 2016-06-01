@@ -1,12 +1,12 @@
 <% exhibit_id = params[:ex] %>
 <% display_id = params[:id] %>
 
-<div class="center jumbotron" style="background: url(<%= asset_path('display-images/' + display_id + '.jpg') %>)">
-	<h1><%= parse_display(exhibit_id, display_id, 'title') %></h1>
-	<h2><%= parse_display(exhibit_id, display_id, 'subText') %></h2>
+<div class="center jumbotron" style="background: url(<%= asset_path('display-images/' + display_id + '.jpg') %>); margin-bottom: 5px">
+	<h1 style="color: white !important;"><%= parse_display(exhibit_id, display_id, 'title') %></h1>
+	<h2 style="color: white !important;"><%= parse_display(exhibit_id, display_id, 'subText') %></h2>
 </div>
 
-<p>Exhibit: <span class='text-muted'><%= parse_display(exhibit_id, display_id, 'exhibit') %></span></p>
+<p style="background: rgba(255, 255, 255, 0.6); text-align: center; padding: 5px;">Exhibit: <span class='text-muted'><%= parse_display(exhibit_id, display_id, 'exhibit') %></span></p>
 
 <% para = parse_display(exhibit_id, display_id, 'paragraph') %>
 	
