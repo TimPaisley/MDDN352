@@ -96,10 +96,6 @@ p {
   font-size: 20px;
 }
 
-.btn-blue {
-  background-color: $acha-lily-blue;
-}
-
 .btn-green {
   background-color: $acha-lily-green;
 }
@@ -108,10 +104,6 @@ p {
   background-color: rgba(255, 255, 255, 0.6);
   border-color: $acha-lily-green;
   color: #333;
-}
-
-.btn-orange {
-  background-color: $acha-lily-orange;
 }
 
 .btn-wide {
@@ -216,6 +208,14 @@ footer {
   font-weight: 400;
   line-height: 1.0em;
   margin-top: 0px;
+}
+
+/* levels */
+
+.level {
+  padding: 5px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* exhibits */
