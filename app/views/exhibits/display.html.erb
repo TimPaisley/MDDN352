@@ -1,5 +1,6 @@
 <% exhibit_id = params[:ex] %>
 <% display_id = params[:id] %>
+<% provide(:title, parse_display(exhibit_id, display_id, 'title')) %>
 
 <div class="center jumbotron" style="background: url(<%= asset_path('display-images/' + display_id + '.jpg') %>); margin-bottom: 5px">
 	<h1 style="color: white !important;"><%= parse_display(exhibit_id, display_id, 'title') %></h1>

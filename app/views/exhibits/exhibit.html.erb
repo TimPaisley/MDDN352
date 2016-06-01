@@ -1,6 +1,5 @@
 <% exhibit_id = params[:id] %>
-
-
+<% provide(:title, parse_exhibit(exhibit_id, 'title')) %>
 
 <div class="exhibit-header" style="background: url('<%= image_path('exhibit-images/' + exhibit_id + '.jpg') %>');">
 	<h1><%= parse_exhibit(exhibit_id, 'title') %></h1>
