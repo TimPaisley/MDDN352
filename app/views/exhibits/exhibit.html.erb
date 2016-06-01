@@ -32,7 +32,7 @@
 			<p><a class="btn btn-wide btn-green" data-toggle="collapse" href="#displays" aria-expanded="false">Displays <span class="glyphicon glyphicon-chevron-down"></span></a></p>
 			<div id="displays" class="collapse">
 			<% Dir.foreach('public/assets/' + exhibit_id) do |display| %>
-				<% unless display == '.' or display == '..' %>
+				<% unless display == '.' or display == '..' or display == 'display1.json' or display == 'display2.json' or display == 'display3.json' or display == 'display4.json' %>
 					<% display_id = display[0..-(File.extname(display).length + 1)] %>
 					<% display_name = parse_display(exhibit_id, display_id, 'title') %>
 				 	<p><%= link_to display_name + ' »', display_page_path(exhibit_id, display_id), class: "btn btn-wide btn-green-outline" %></p>
