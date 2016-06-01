@@ -1,0 +1,23 @@
+{
+	"title":"Te Papa Cafe",
+	"subText":"Rest and recharge at one of our cafes, then browse our shops for the perfect gift or souvenir.",
+	"imageName":"shops.jpg",
+	"when":"Open 9am–6pm, every day of the year",
+	"where":"Level 1",
+	"cost":"N.A.",
+	"type":"Cafes and Shops",
+	"paragraph":[
+		{
+			"title":"NULL",
+			"text":"Family-friendly. Licensed"
+		},
+		{
+			"title":"NULL",
+			"text":"Our ground-floor cafe offers great breakfasts, brunches, lunches, and fresh snacks. Gluten-free and vegetarian options are available. Drinks include espresso coffee, herbal teas, wine, and beer. Our kids’ play area will entertain your little ones while you rest your feet. A parents’ room is also available."
+		},
+		{
+			"title":"NULL",
+			"text":"Bush City is just outside – great for exploring in fine weather."
+		}
+	]
+}
