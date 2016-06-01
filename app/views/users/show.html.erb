@@ -2,36 +2,36 @@
 <div class="row user-exhibits">
 	<div class="col-md-3">
 		<div class="user-details">
-			<%= gravatar_for @user %>
-			<h1><%= @user.name %></h1>
-			<h2>500 Points</h2>
+			<center><%= gravatar_for @user %></center>
+			<h1 style="margin-top: 0px"><%= @user.name %></h1>
 		</div>
 	</div>
 
+	<h1>Saved Displays</h1>
 	<div class="col-md-9">
 		<div class="exhibit-block">
-			<h2>Black Beech</h2>
-			<p>Walking through a beech forest on a sunny day with dappled sunlight filtering through the canopy overhead, underfoot you will feel a deep, soft carpet of little brown, yellow, and red leaves. Around you the mossy, black, velvety trunks rise up, and the scent of honeydew, mouldering logs, and leaf litter is...</p>
+			<%= link_to 'Black Beech', display_page_path('mountainstosea', 'blackbeech'), class: "btn btn-wide btn-green" %>
+			<p style="margin-top: 10px;">Walking through a beech forest on a sunny day with dappled sunlight filtering through the canopy overhead...</p>
 		</div>
 
 		<div class="exhibit-block">
-			<h2>Exhibit 1</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+			<%= link_to 'Pygmy Blue Whale', display_page_path('mountainstosea', 'pygmybluewhale'), class: "btn btn-wide btn-green" %>
+			<p style="margin-top: 10px;">The suspended skeleton in Mountains to the Sea comes from a whale which was hit by a container ship off the...</p>
 		</div>
 
 		<div class="exhibit-block">
-			<h2>Exhibit 3</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+			<%= link_to 'Giant Weta', display_page_path('awesomeforces', 'giantweta'), class: "btn btn-wide btn-green" %>
+			<p style="margin-top: 10px;">Imagine climbing up forest trees to set bird traps or to forage for fruits, and disturbing a wetapunga in...</p>
 		</div>
 
 		<div class="exhibit-block">
-			<h2>Exhibit 4</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+			<%= link_to 'Cecil Malthus', display_page_path('gallipoli', 'cecilmalthus'), class: "btn btn-wide btn-green" %>
+			<p style="margin-top: 10px;">One of the most arresting sights in Gallipoli: The scale of our war is the final giant sculpture of Cecil...</p>
 		</div>
 
 		<div class="exhibit-block">
-			<h2>Exhibit 5</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget pretium dolor...</p>
+			<%= link_to 'Private Jack Dunn', display_page_path('gallipoli', 'jackdunn'), class: "btn btn-wide btn-green" %>
+			<p style="margin-top: 10px;">This is the fourth blog in our series about the real people behind the larger-than-life sculptures featured...</p>
 		</div>
 	</div>
 </div>

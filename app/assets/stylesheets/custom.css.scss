@@ -173,28 +173,25 @@ footer {
 /* user sidebar */
 
 .gravatar {
-  float: left;
   margin-right: 10px;
 }
 
-.gravatar_edit {
-  margin-top: 15px;
-}
-
 .user-details {
+
   img {
     margin-bottom: 10px;
+    border: 1px solid #333;
   }
 
   h1 {
     clear: left;
-    text-align: left;
+    text-align: center;
     font-size: 2em;
     margin-bottom: 5px;
   }
 
   h2 {
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
     color: $gray !important;
     margin-top: 0px;
@@ -251,12 +248,11 @@ footer {
 }
 
 .exhibit-block {
+  background-color: rgba(255, 255, 255, 0.6);
   float: right;
-  border: 1px solid #333;
   width: 100%;
   margin-bottom: 20px;
-
-  
+  padding: 5px;
 }
 
 .exhibit-info {
