@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="920" height="680" viewBox="0 0 651.97 481.89" style="enable-background:new 0 0 651.97 481.89; overflow-x: auto; overflow-y: auto;"  xml:space="preserve">
-<g id="Layer_1">
-  <image style="overflow:visible;" width="5206" height="3754" xlink:href="level3.jpg"  transform="matrix(0.1269 0 0 0.1284 0 0)">
-  </image>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="880px" height="640px" 
+	 viewBox="0 0 623.62 453.54" style="enable-background:new 0 0 0 0; overflow-x: auto; overflow-y: auto;" xml:space="preserve">
+<image style="overflow:visible;" width="5206" height="3754" xlink:href="levelsWT.jpg"  transform="matrix(0.1198 0 0 0.1208 0 0)">
+</image>
+<g id="Layer_1_2_">
+	<g id="Layer_2_4_">
+		<path style="opacity:0.30;fill:#006600;enable-background:new    ;" d="M349.214,133.949l31.219-60.023l86.253,46.039
+			l-29.752,58.176l-0.467,7.915h-99.461c0,0,2.468-20.909,7.338-29.286l-40.491-21.437c0,0-17.544,33.969-12.674,50.722h-17.544
+			l13.141-60.023l-22.414-12.07l10.206-18.139L349.214,133.949z" onClick="window.location='<%= exhibit_page_path('bloodearthfire') %>';"/>
+		<rect x="346.745" y="201.887" style="opacity:0.60;fill:#006600;enable-background:new    ;" width="88.721" height="14.643" onClick="window.location='<%= exhibit_page_path('youcalledmewhat') %>';" />
+	</g>
 </g>
-<g id="Layer_2">
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M370.952,141.167l33.15-64.5l91.68,49.5l-31.596,62.5l-0.518,8.5H358.002
-    c0,0,2.59-22.5,7.77-31.5l-42.991-23c0,0-18.647,36.5-13.467,54.5h-18.647l13.985-64.5l-23.827-13l10.877-19.5L370.952,141.167z" onClick="window.location='exhibit.html?exhibit=bloodearthfire';"/>
-  <rect x="368.362" y="214.167" style="opacity:0.01;fill:#FFFFFF;" width="94.27" height="15.719" onClick="window.location='exhibit.html?exhibit=youcalledmewhat';"/>
+<g id="Layer_4_1_">
+	<rect x="47.581" y="194.038" style="fill:none;" width="110.72" height="105.534"/>
+	
+		<text transform="matrix(0.9915 0 0 1 69.7837 200.6162)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Te Huinga Centre</text>
+	
+		<text transform="matrix(0.9915 0 0 1 71.3545 211.6968)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Function venues</text>
+	
+		<text transform="matrix(0.9915 0 0 1 75.147 222.7778)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Angus Room 1</text>
+	
+		<text transform="matrix(0.9915 0 0 1 75.147 233.8604)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Angus Room 2</text>
+	
+		<text transform="matrix(0.9915 0 0 1 65.6641 244.9404)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Rangimarie Room 1</text>
+	
+		<text transform="matrix(0.9915 0 0 1 65.6641 256.0215)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Rangimarie Room 2</text>
+	
+		<text transform="matrix(0.9915 0 0 1 65.6641 267.1025)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Rangimarie Room 3</text>
+</g>
+<g id="Layer_2_3_">
+	<text transform="matrix(0.9915 0 0 1 368.4512 138.2144)" style="fill:#010101; font-family:'MyriadPro-Bold'; font-size:11.213;">Blood Earth Fire</text>
+	
+		<text transform="matrix(0.9915 0 0 1 336.5322 212.3091)" style="fill:#010101; font-family:'MyriadPro-Bold'; font-size:11.8726;">You Called Me What?!</text>
+</g>
+<g id="Layer_3_1_">
+	<rect x="447.428" y="162.839" style="fill:none;" width="71.938" height="26.384"/>
+	
+		<text transform="matrix(0.9915 0 0 1 449.8965 169.395)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Oceania Function</text>
+	
+		<text transform="matrix(0.9915 0 0 1 471.1523 180.4771)" style="opacity:0.3;fill:#010101;enable-background:new    ; font-family:'MyriadPro-Regular'; font-size:9.2343;">Venue</text>
 </g>
 </svg>

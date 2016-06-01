@@ -21,7 +21,7 @@
 <div class="q-wrapper">
 	<h3>Estimated Wait Time:</h3>
 	<h1 class="q-timer">Approx. 2min</h1>
-	<p class="q-help"><%= link_to 'What is this?', about_path %></p>
+	<p class="q-help"><%= link_to 'What is this?', about_path(anchor: "q") %></p>
 </div>
 	
 <div class='row'>
@@ -50,7 +50,7 @@
 			<% unless para['title'] == 'NULL' %>
 				<h3><%= para['title'] %></h3>
 			<% end %>
-			<p><%= para['text'] %></p>
+			<p style="background-color: rgba(255, 255, 255, 0.4); padding: 10px;"><%= para['text'] %></p>
 		<% end %>
 	</div>
 </div>

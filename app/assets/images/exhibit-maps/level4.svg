@@ -1,37 +1,58 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="820px" height="800px" viewBox="0 0 595.28 566.93" style="enable-background:new 0 0 595.28 566.93; overflow-x: auto; overflow-y: auto;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="840px" height="800px"
+	 viewBox="0 0 623.62 566.93" style="enable-background:new 0 0 0 0; overflow-x: auto; overflow-y: auto;" xml:space="preserve">
 <g id="Layer_1">
-  
-    <image style="overflow:visible;" width="5206" height="3754" xlink:href="level4.jpg"  transform="matrix(0.1442 0 0 0.151 -71 0)">
-  </image>
+	
+		<image style="overflow:visible;" width="5206" height="3754" xlink:href="level 4WT.jpg"  transform="matrix(0.1511 0 0 0.1511 -70.2767 -0.2017)">
+	</image>
 </g>
 <g id="Layer_2">
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M511.604,182.758l-60.135,7.095c0,0,4.041,14.092,16.846,26.268
-    c10.537,10.02,27.009,18.742,52.046,17.247L511.604,182.758z" onClick="window.location='exhibit.html?exhibit=tehukaatai';"/>
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M400.092,273.573l131.947,53.921c0,0,11.093-3.784,15.18-3.784s0-57.705,0-57.705
-    l-21.602-8.987l-5.255-23.65c0,0-31.113,2.399-52.046-17.247l-27.939,43.262l-25.105-8.514c0,0-20.305-2.693-12.261,12.246
-    C403.011,263.115,403.595,267.897,400.092,273.573z" onClick="window.location='exhibit.html?exhibit=manawhenua';"/>
-  <polygon style="opacity:0.01;fill:#FFFFFF;" points="328.28,177.555 412.352,45.117 435.122,55.996 400.092,111.336 
-    451.469,131.197 434.538,159.108 429.867,159.581 402.427,208.147   " onClick="window.location='exhibit.html?exhibit=temarae';"/>
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M307.426,213.503l20.855-35.947l74.147,30.592l27.44-48.566l4.671-0.473l4.671,32.637
-    l-18.683,39.258c0,0-7.006,8.514-20.434,8.987c-13.428,0.473-14.012,8.041-14.012,8.041L307.426,213.503z" onClick="window.location='exhibit.html?exhibit=manawhenua';"/>
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M273.983,263.588l33.442-50.085l78.654,34.529c0,0-3.503,2.365-3.503,8.514
-    c0,6.149,5.255,8.295-7.006,15.263l-72.396-23.777l-14.596,21.758L273.983,263.588z" onClick="window.location='exhibit.html?exhibit=whititera';"/>
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M243.04,315.196l30.943-51.608l14.596,6.201l7.854-11.708l20.754,10.289
-    c0,0-16.347,26.015-14.596,49.191L243.04,315.196z" onClick="window.location='exhibit.html?exhibit=espresso';"/>
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M381.409,339.792c0,0-4.671-40.204,18.683-66.219l131.947,53.921
-    c0,0,41.452-11.825,51.961,15.609c0,0-14.596,26.015-54.297,0L381.409,339.792z" onClick="window.location='exhibit.html?exhibit=treatyofwaitangi';"/>
-  <rect x="376.738" y="370.828" style="opacity:0.01;fill:#FFFFFF;" width="101.004" height="14.916" onClick="window.location='exhibit.html?exhibit=themixingroom';"/>
-  <polygon style="opacity:0.01;fill:#FFFFFF;" points="381.409,339.792 376.738,367 477.742,367 477.742,341.42  " onClick="window.location='exhibit.html?exhibit=passports';"/>
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M559.479,427.296h-56.632c0,0,0-17.974,7.59-19.156
-    c7.59-1.182,2.919-9.223,2.919-9.223h46.123V427.296z" onClick="window.location='exhibit.html?exhibit=planetpasifika';"/>
-  <rect x="419.358" y="427.296" style="opacity:0.01;fill:#FFFFFF;" width="45.539" height="28.38" onClick="window.location='exhibit.html?exhibit=goldendays';"/>
-  <polygon style="opacity:0.01;fill:#FFFFFF;" points="200.42,441.485 193.414,457.567 298.505,457.567 298.505,441.485  " onClick="window.location='exhibit.html?exhibit=inspirationstation';"/>
-  <path style="opacity:0.01;fill:#FFFFFF;" d="M209.762,430.607h154.716v-72.841c0,0-5.255-18.875-24.521-15.823l-74.731-0.334
-    L209.762,430.607z" onClick="window.location='exhibit.html?exhibit=sliceofheaven';"/>
-  <polygon style="opacity:0.01;fill:#FFFFFF;" points="477.742,388.983 400.092,388.983 400.092,423.5 501,423.5 510.437,408.139 
-    514.062,406.242 513.356,398.916 559.479,398.916 559.479,354.665 543.044,350.4 529.703,343.103 477.742,341.943   " onClick="window.location='exhibit.html?exhibit=tangataolemoana';"/>
+	<path style="opacity:0.30;fill:#006600;" d="M539.047,183.302l-62.906,7.015c0,0,4.227,13.933,17.623,25.971
+		c11.023,9.906,28.253,18.53,54.445,17.052L539.047,183.302z" onClick="window.location='<%= exhibit_page_path('tehukaatai') %>';"/>
+	<path style="opacity:0.30;fill:#006600;" d="M422.395,273.089L560.423,326.4c0,0,11.604-3.741,15.879-3.741s0-57.052,0-57.052
+		l-22.597-8.885l-5.497-23.382c0,0-32.547,2.372-54.445-17.052l-29.227,42.772l-26.262-8.418c0,0-21.241-2.662-12.826,12.107
+		C425.449,262.75,426.06,267.478,422.395,273.089z" onClick="window.location='<%= exhibit_page_path('manawhenua') %>';"/>
+	<polygon style="opacity:0.30;fill:#006600;" points="347.274,178.158 435.221,47.218 459.04,57.974 422.395,112.688 
+		476.14,132.324 458.429,159.92 453.543,160.388 424.838,208.404 	" onClick="window.location='<%= exhibit_page_path('temarae') %>';"/>
+	<path style="opacity:0.30;fill:#006600;" d="M325.458,213.699l21.816-35.541l77.564,30.246l28.705-48.016l4.886-0.468l4.886,32.267
+		l-19.544,38.814c0,0-7.329,8.418-21.376,8.885s-14.658,7.95-14.658,7.95L325.458,213.699z" onClick="window.location='<%= exhibit_page_path('manawhenua') %>';"/>
+	<path style="opacity:0.30;fill:#006600;" d="M290.475,263.217l34.983-49.519l82.279,34.138c0,0-3.664,2.338-3.664,8.418
+		s5.497,8.201-7.329,15.09l-75.732-23.507l-15.269,21.512L290.475,263.217z" onClick="window.location='<%= exhibit_page_path('whititera') %>';"/>
+	<path style="opacity:0.30;fill:#006600;" d="M258.106,314.242l32.369-51.024l15.269,6.131l8.216-11.576l21.71,10.173
+		c0,0-17.101,25.72-15.269,48.635L258.106,314.242z" onClick="window.location='<%= exhibit_page_path('espresso') %>';"/>
+	<path style="opacity:0.30;fill:#006600;" d="M402.851,338.559c0,0-4.886-39.75,19.544-65.47L560.423,326.4
+		c0,0,43.363-11.691,54.356,15.432c0,0-15.268,25.72-56.799,0L402.851,338.559z" onClick="window.location='<%= exhibit_page_path('treatyofwaitangi') %>';"/>
+	<rect x="397.965" y="369.244" style="opacity:0.30;fill:#006600;" width="105.658" height="14.747" onClick="window.location='<%= exhibit_page_path('themixingroom') %>';"/>
+	<polygon style="opacity:0.30;fill:#006600;" points="402.851,338.559 397.965,369.244 503.624,369.244 503.624,340.395 	" onClick="window.location='<%= exhibit_page_path('passports') %>';"/>
+	<path style="opacity:0.30;fill:#006600;" d="M589.127,425.073h-59.242c0,0,0-17.77,7.94-18.939s3.054-9.119,3.054-9.119h48.249
+		V425.073z" onClick="window.location='<%= exhibit_page_path('planetpasifika') %>';"/>
+	<rect x="442.549" y="425.073" style="opacity:0.30;fill:#006600;" width="47.638" height="28.058" onClick="window.location='<%= exhibit_page_path('goldendays') %>';"/>
+	<polygon style="opacity:0.30;fill:#006600;" points="212.728,439.102 206.193,455.002 304.217,455.002 304.217,439.102 	" onClick="window.location='<%= exhibit_page_path('inspirationstation') %>';"/>
+	<path style="opacity:0.30;fill:#006600;" d="M223.293,428.346H385.14V356.33c0,0-5.497-18.661-25.651-15.644l-78.175-0.33
+		L223.293,428.346z" onClick="window.location='<%= exhibit_page_path('sliceofheaven') %>';"/>
+	<polygon style="opacity:0.30;fill:#006600;" points="503.624,387.194 422.395,387.194 422.395,421.32 527.953,421.32 
+		537.825,406.133 541.618,404.257 540.879,397.014 589.127,397.014 589.127,353.264 571.935,349.048 557.98,341.833 
+		503.624,340.686 	" onClick="window.location='<%= exhibit_page_path('tangataolemoana') %>';"/>
+</g>
+<g id="Layer_3">
+	<text transform="matrix(1 0 0 1 244.6668 308.3335)" style="font-family:'MyriadPro-Bold'; font-size:15;">Espresso</text>
+	<text transform="matrix(1 0 0 1 372.3332 170.6667)" style="font-family:'MyriadPro-Bold'; font-size:15;">Te Marae</text>
+	<text transform="matrix(1 0 0 1 325.458 195.7372)"><tspan x="0" y="0" style="font-family:'MyriadPro-Bold'; font-size:15;">Mana</tspan><tspan x="0" y="18" style="font-family:'MyriadPro-Bold'; font-size:15;">Whenua</tspan></text>
+	<text transform="matrix(1 0 0 1 411.7071 360.6667)" style="font-family:'MyriadPro-Bold'; font-size:15;">Passports</text>
+	<text transform="matrix(1 0 0 1 389.6665 384.3509)" style="font-family:'MyriadPro-Bold'; font-size:15;">The Mixing Room</text>
+	<text transform="matrix(1 0 0 1 442.5493 466.9354)"><tspan x="0" y="0" style="font-family:'MyriadPro-Bold'; font-size:15;">Golden</tspan><tspan x="0" y="18" style="font-family:'MyriadPro-Bold'; font-size:15;">Days</tspan></text>
+	<text transform="matrix(1 0 0 1 431.6667 400.6663)"><tspan x="0" y="0" style="font-family:'MyriadPro-Bold'; font-size:15;">Tangata</tspan><tspan x="0" y="18" style="font-family:'MyriadPro-Bold'; font-size:15;">o le Moana</tspan></text>
+	<text transform="matrix(1 0 0 1 407.7372 326.4005)" style="font-family:'MyriadPro-Bold'; font-size:15;">Treaty of Waitangi</text>
+	<text transform="matrix(1 0 0 1 529.8857 403)"><tspan x="0" y="0" style="font-family:'MyriadPro-Bold'; font-size:15;">PlaNet</tspan><tspan x="0" y="18" style="font-family:'MyriadPro-Bold'; font-size:15;">Pasifika</tspan></text>
+	<text transform="matrix(1 0 0 1 516.1155 287.1761)"><tspan x="0" y="0" style="font-family:'MyriadPro-Bold'; font-size:15;">Mana</tspan><tspan x="0" y="18" style="font-family:'MyriadPro-Bold'; font-size:15;">Whenua</tspan></text>
+	<text transform="matrix(1 0 0 1 193.5 471)" style="font-family:'MyriadPro-Bold'; font-size:15;">Inspiration Station</text>
+	<text transform="matrix(1 0 0 1 266 400.6663)" style="font-family:'MyriadPro-Bold'; font-size:15;">Slice of Heaven</text>
+	<text transform="matrix(1 0 0 1 503.9427 203.8782)" style="font-family:'MyriadPro-Bold'; font-size:15;">Te Huka &#x101; Tai</text>
+	<text transform="matrix(1 0 0 1 152.8574 183.3024)"><tspan x="0" y="0" style="font-family:'MyriadPro-Bold'; font-size:15;">Whiti Te R&#x101;! The story of</tspan><tspan x="13.912" y="18" style="font-family:'MyriadPro-Bold'; font-size:15;">Ng&#x101;ti Toa Rangatira</tspan></text>
+</g>
+<g id="Layer_4">
+	<text transform="matrix(1 0 0 1 485.5 142)"><tspan x="0" y="0" style="font-family:'MyriadPro-Regular'; font-size:11;">Hine-titama</tspan><tspan x="0" y="13.2" style="font-family:'MyriadPro-Regular'; font-size:11;">Meeting Room</tspan></text>
+	<text transform="matrix(1 0 0 1 65.5 352.0093)"><tspan x="0" y="0" style="font-family:'MyriadPro-Regular'; font-size:11;">Amokura Gallery</tspan><tspan x="0" y="13.2" style="font-family:'MyriadPro-Regular'; font-size:11;">Function Venue</tspan></text>
 </g>
 </svg>
